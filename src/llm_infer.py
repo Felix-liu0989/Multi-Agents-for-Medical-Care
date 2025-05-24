@@ -4,10 +4,10 @@ import os, json
 from tqdm import tqdm
 import traceback
 
-with open("/root/autodl-fs/healthRAG/datatsets/prompt.txt","r",encoding="utf-8") as f:
+with open("../datatsets/prompt.txt","r",encoding="utf-8") as f:
     prompt_for_simple_prediction = f.read()
     
-with open("/root/autodl-fs/healthRAG/datatsets/prompt_for_retrieval.txt","r",encoding="utf-8") as f:
+with open("../datatsets/prompt_for_retrieval.txt","r",encoding="utf-8") as f:
     prompt_for_retrieval_prediction = f.read()
 
 def build_simple_template():
@@ -27,7 +27,7 @@ def build_retrieval_template():
 
 API_KEYS = {
     "openai": '',
-    'deepseek': "sk-3b9c860b83844a789ea639881a569acc",
+    'deepseek': "",
 }
 # os.getenv('DEEPSEEK_API_KEY')
 
