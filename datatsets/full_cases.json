@@ -1,0 +1,4570 @@
+[
+    {
+        "id": 1,
+        "patient_info": {
+            "name": null,
+            "age": null,
+            "gender": null
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "监测体温变化,体温≤38.5℃时给予物理降温，体温≥38.5℃遵医嘱给予退烧药",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者当前有发热症状，需要注意体温变化"
+        ],
+        "key_observations": [
+            "医生重点关注体温变化，特别是是否超过38.5℃"
+        ],
+        "normal_indicators": [
+            "暂无其他异常指标说明"
+        ],
+        "possible_treatments": [
+            "体温低于38.5℃时使用物理降温（如冷敷、温水擦浴等），体温超过38.5℃时可能需要使用退烧药"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日多次测量体温，记录体温变化"
+        ],
+        "lifestyle_changes": [
+            "多喝水，保持充足休息，穿着轻薄透气的衣物"
+        ],
+        "warning_signs": [
+            "体温持续高于38.5℃不退、出现意识模糊、抽搐等症状应立即就医"
+        ],
+        "query_intent": "\"患者发热，体温≤38.5℃时物理降温，体温≥38.5℃需要吃退烧药吗？\""
+    },
+    {
+        "id": 2,
+        "patient_info": {
+            "name": "熊**",
+            "age": "48岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": null,
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "暂无紧急健康问题，需关注血压偏高趋势"
+        ],
+        "key_observations": [
+            "舒张压89（接近正常值上限）"
+        ],
+        "normal_indicators": [
+            "体温36.5℃（正常）",
+            "脉搏85次/分钟（正常）",
+            "呼吸20次/分钟（正常）",
+            "血氧98%（非常好）",
+            "尿量300ml（需结合全天总量评估）"
+        ],
+        "possible_treatments": [
+            "可能需要监测血压变化，暂无需特殊用药"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日早晚测量血压",
+            "记录24小时总尿量"
+        ],
+        "lifestyle_changes": [
+            "减少盐分摄入",
+            "保持适度运动",
+            "避免熬夜"
+        ],
+        "warning_signs": [
+            "血压持续高于140/90",
+            "出现头晕头痛症状",
+            "尿量明显减少"
+        ],
+        "query_intent": "\"48岁女性，舒张压89接近正常上限，需要监测血压变化吗？\""
+    },
+    {
+        "id": 3,
+        "patient_info": {
+            "name": "马****",
+            "age": "新生儿",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "产后护理记录，尿液输出正常，子宫收缩良好",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "产后恢复情况"
+        ],
+        "key_observations": [
+            "子宫收缩情况",
+            "宫底高度"
+        ],
+        "normal_indicators": [
+            "体温正常（36.5℃）",
+            "脉搏正常（78次/分钟）",
+            "血压正常（115/70 mmHg）",
+            "血氧正常（98%）",
+            "神志清醒"
+        ],
+        "possible_treatments": [
+            "可能需要的产后恢复药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测体温",
+            "观察子宫收缩情况",
+            "记录出入量"
+        ],
+        "lifestyle_changes": [
+            "保持腹部清洁",
+            "适当休息",
+            "注意营养补充"
+        ],
+        "warning_signs": [
+            "出现发热",
+            "子宫收缩不良",
+            "异常出血"
+        ],
+        "query_intent": "\"产后恢复情况良好，子宫收缩正常，体温36.5℃，脉搏78次/分，血压115/70 mmHg，血氧98%，神志清醒，需要服用产后恢复药物吗？\""
+    },
+    {
+        "id": 4,
+        "patient_info": {
+            "name": "顿**",
+            "age": "31岁",
+            "gender": "女"
+        },
+        "disease_info": [
+            "晚孕"
+        ],
+        "department_info": "产科",
+        "notes_info": "孕妇急诊轮椅入院，主诉有阴道流液，阴道检查见活动性阴道流液，PH试纸已变色，色清亮，量约5ml，胎心监护，新型冠状病毒肺炎相关知识宣教",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "孕妇急诊入院，主诉有阴道流液",
+            "胎心监护显示胎心正常，但孕妇心率较快（116次/分钟）",
+            "宫颈未开，先露位置较低"
+        ],
+        "key_observations": [
+            "阴道流液情况（量约5ml，色清亮）",
+            "胎心率（140次/分钟）",
+            "孕妇心率（116次/分钟）"
+        ],
+        "normal_indicators": [
+            "体温正常（36.7℃）",
+            "血压正常（113/86 mmHg）",
+            "羊水性状正常（清）"
+        ],
+        "possible_treatments": [
+            "可能需要抗生素预防感染",
+            "可能需要药物调节宫缩"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测胎动情况",
+            "注意阴道流液量和性状变化",
+            "监测体温变化"
+        ],
+        "lifestyle_changes": [
+            "卧床休息，避免剧烈活动",
+            "保持外阴清洁，预防感染",
+            "保持心情放松"
+        ],
+        "warning_signs": [
+            "阴道流血或流液量突然增加",
+            "胎动明显减少或消失",
+            "出现发热或腹痛",
+            "破水后12小时内未临产"
+        ],
+        "query_intent": "\"31岁孕妇急诊入院，主诉阴道流液5ml，色清亮，PH试纸变色，胎心140次/分但孕妇心率116次/分，宫颈未开，先露位置较低，需要抗生素预防感染或药物调节宫缩吗？\""
+    },
+    {
+        "id": 5,
+        "patient_info": {
+            "name": "伍**",
+            "age": "61岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "无明确诊断信息，血压正常范围",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "暂无紧急健康问题，需关注泌***科室相关诊断"
+        ],
+        "key_observations": [
+            "血压正常（123/70 mmHg），心率正常（70次/分钟）"
+        ],
+        "normal_indicators": [
+            "血压、心率均在正常范围内"
+        ],
+        "possible_treatments": [
+            "等待进一步诊断后确定用药方案"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测血压、心率"
+        ],
+        "lifestyle_changes": [
+            "保持均衡饮食，适量活动"
+        ],
+        "warning_signs": [
+            "出现头晕、胸闷、血压异常升高或降低等症状应立即就医"
+        ],
+        "query_intent": "\"61岁女性，血压123/70 mmHg，心率70次/分，需要关注泌尿科相关诊断吗？\""
+    },
+    {
+        "id": 6,
+        "patient_info": {
+            "name": "刘**",
+            "age": "72岁",
+            "gender": "女"
+        },
+        "disease_info": [
+            "左侧椎动脉重度狭窄",
+            "缺血性脑血管病"
+        ],
+        "department_info": "神经内科、血管外科",
+        "notes_info": "支架植入术后状态，主诉反复头晕",
+        "risk_info": [
+            "极高危"
+        ],
+        "secondary_diagnosis_info": [
+            "多发脑动脉狭窄",
+            "高血压病2级"
+        ],
+        "main_issues": [
+            "反复头晕（持续1周）",
+            "左侧椎动脉重度狭窄（曾做过支架手术）",
+            "高血压（2级，极高风险）",
+            "多发脑动脉狭窄（轻至重度）"
+        ],
+        "key_observations": [
+            "跌倒风险较高（需防摔倒）",
+            "行动需依靠轮椅/辅助",
+            "血压情况需密切监测（病历未提供当前数值）"
+        ],
+        "normal_indicators": [
+            "体温、呼吸正常",
+            "饮食、睡眠、排泄功能正常",
+            "无疼痛或感染迹象"
+        ],
+        "possible_treatments": [
+            "降压药物（控制高血压）",
+            "抗血小板药物（预防脑动脉血栓）",
+            "改善脑循环药物（缓解头晕）"
+        ],
+        "important_note": "具体用药请严格遵医嘱，切勿自行调整剂量",
+        "monitoring": [
+            "每日测量血压（尤其起床后和睡前）",
+            "观察头晕发作频率和持续时间",
+            "留意行走时的平衡感"
+        ],
+        "lifestyle_changes": [
+            "起床/站立时动作放缓，预防跌倒",
+            "低盐饮食（帮助控制血压）",
+            "轮椅活动时系好安全带"
+        ],
+        "warning_signs": [
+            "头晕加重或昏倒",
+            "突然手脚无力/麻木",
+            "说话不清楚或剧烈头痛"
+        ],
+        "query_intent": "\"72岁女性，左侧椎动脉重度狭窄支架植入术后，反复头晕1周，多发脑动脉狭窄伴高血压2级极高危，需要调整治疗方案吗？\""
+    },
+    {
+        "id": 7,
+        "patient_info": {
+            "name": "戴**",
+            "age": "50岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "PICC导管置入，使用强刺激性（发泡剂）药物，无药物外渗",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者正在使用强刺激性药物，需特别注意药物外渗风险"
+        ],
+        "key_observations": [
+            "PICC导管使用情况",
+            "皮肤和组织是否正常",
+            "药物外渗情况"
+        ],
+        "normal_indicators": [
+            "皮肤和组织正常",
+            "无药物外渗"
+        ],
+        "possible_treatments": [
+            "强刺激性药物（发泡剂）通过PICC导管给药"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日检查PICC导管位置",
+            "观察注射部位皮肤情况",
+            "注意是否有药物外渗"
+        ],
+        "lifestyle_changes": [
+            "保持注射部位清洁干燥",
+            "避免剧烈运动以防导管移位"
+        ],
+        "warning_signs": [
+            "注射部位出现红肿、疼痛",
+            "皮肤出现水泡或溃烂",
+            "导管移位或脱落"
+        ],
+        "query_intent": "\"50岁男性患者使用强刺激性药物（发泡剂）通过PICC导管给药，目前无药物外渗，需要注意哪些护理事项？\""
+    },
+    {
+        "id": 8,
+        "patient_info": {
+            "name": "钟**",
+            "age": "70岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "高血压（收缩压168，舒张压111）",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者当前血压非常高，属于高血压紧急情况，需要立即关注"
+        ],
+        "key_observations": [
+            "收缩压168mmHg，舒张压111mmHg（正常应低于140/90）"
+        ],
+        "normal_indicators": [
+            "饮水量和服药情况有记录，显示按时服药"
+        ],
+        "possible_treatments": [
+            "可能需要降压药（具体药物需医生评估）"
+        ],
+        "important_note": "具体用药请严格遵医嘱，不可自行调整药量",
+        "monitoring": [
+            "每天至少测量3次血压（早中晚）并记录"
+        ],
+        "lifestyle_changes": [
+            "低盐饮食（每日食盐不超过5g）",
+            "避免情绪激动和剧烈运动",
+            "保持充足睡眠"
+        ],
+        "warning_signs": [
+            "头痛剧烈或持续不缓解",
+            "恶心呕吐",
+            "视物模糊",
+            "胸痛或呼吸困难"
+        ],
+        "query_intent": "\"70岁女性患者，收缩压168mmHg，舒张压111mmHg，属于高血压紧急情况，需要立即关注，请问应该如何处理？\""
+    },
+    {
+        "id": 9,
+        "patient_info": {
+            "name": "马*",
+            "age": "35岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "体温37.6℃，尿量560ml，嘱多饮水1000ml以上",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者当前有轻微发热（37.6℃）"
+        ],
+        "key_observations": [
+            "体温偏高（37.6℃）",
+            "尿量（560ml）"
+        ],
+        "normal_indicators": [
+            "心率正常（72次/分钟）",
+            "呼吸正常（18次/分钟）"
+        ],
+        "possible_treatments": [
+            "多饮水（1000ml以上）"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "体温",
+            "尿量"
+        ],
+        "lifestyle_changes": [
+            "多饮水（每日1000ml以上）"
+        ],
+        "warning_signs": [
+            "体温持续升高（超过38℃）",
+            "尿量明显减少"
+        ],
+        "query_intent": "“35岁女性轻微发热37.6℃，尿量560ml，需要多饮水1000ml以上，这种情况需要用药吗？”"
+    },
+    {
+        "id": 10,
+        "patient_info": {
+            "name": "谷**",
+            "age": "53岁",
+            "gender": null
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "Braden风险评估表总分17分，感觉未受损害，偶尔潮湿，移动无受限，营养适当",
+        "risk_info": [
+            "卧床不起",
+            "有潜在问题"
+        ],
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者卧床不起，活动能力受限",
+            "皮肤有潜在摩擦和剪切力问题（可能容易产生压疮）"
+        ],
+        "key_observations": [
+            "Braden评分17分（属于低风险，但仍需关注皮肤状况）",
+            "活动能力受限情况"
+        ],
+        "normal_indicators": [
+            "营养状况良好",
+            "感觉功能正常",
+            "移动能力未受限"
+        ],
+        "possible_treatments": [
+            "可能需要皮肤保护药物或敷料"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日检查皮肤状况，特别是受压部位",
+            "观察是否有皮肤发红或破损"
+        ],
+        "lifestyle_changes": [
+            "定期翻身（至少每2小时一次）",
+            "保持皮肤清洁干燥",
+            "使用减压垫或特殊床垫",
+            "保证足够营养摄入"
+        ],
+        "warning_signs": [
+            "皮肤出现发红、破损或溃疡",
+            "疼痛或不适感增加"
+        ],
+        "query_intent": "\"53岁卧床患者，Braden评分17分，感觉功能正常但活动受限，需要皮肤保护措施吗？\""
+    },
+    {
+        "id": 11,
+        "patient_info": {
+            "name": "李**",
+            "age": "82岁",
+            "gender": null
+        },
+        "disease_info": [
+            "脑挫伤"
+        ],
+        "department_info": "神经外科、神经内科",
+        "notes_info": null,
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "82岁高龄患者因脑挫伤住院，需重点关注脑部恢复情况"
+        ],
+        "key_observations": [
+            "医生会密切监测意识状态、肢体活动能力等脑损伤相关指标"
+        ],
+        "normal_indicators": [
+            "当前评估量表得分为0分（需确认量表评分标准，可能表示基础状态稳定）"
+        ],
+        "possible_treatments": [
+            "可能包含神经营养药物、预防脑水肿药物等"
+        ],
+        "important_note": "具体用药请严格遵医嘱，脑挫伤患者用药需特别谨慎",
+        "monitoring": [
+            "每日观察意识清醒程度、手脚活动情况、有无头痛呕吐"
+        ],
+        "lifestyle_changes": [
+            "卧床期间定时翻身防褥疮",
+            "饮食宜清淡易消化",
+            "康复期可在医生指导下进行简单肢体活动"
+        ],
+        "warning_signs": [
+            "突然叫不醒或意识模糊",
+            "手脚突然不能动",
+            "剧烈头痛或频繁呕吐",
+            "发烧38度以上"
+        ],
+        "query_intent": "\"82岁高龄患者因脑挫伤住院，当前评估量表得分为0分，需要重点关注哪些脑部恢复指标？\""
+    },
+    {
+        "id": 12,
+        "patient_info": {
+            "name": "郑**",
+            "age": "36岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "产后护理状态，宫底高度U-1，子宫收缩良好",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "产后恢复情况"
+        ],
+        "key_observations": [
+            "子宫收缩情况",
+            "尿液排出量"
+        ],
+        "normal_indicators": [
+            "心率正常（88次/分钟）",
+            "呼吸正常（20次/分钟）",
+            "血压正常（121/75 mmHg）",
+            "血氧正常（98%）"
+        ],
+        "possible_treatments": [
+            "可能需要的产后恢复药物（如促进子宫收缩的药物）"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测子宫收缩情况",
+            "记录尿液排出量"
+        ],
+        "lifestyle_changes": [
+            "保持充足的水分摄入",
+            "适当活动促进恢复",
+            "注意休息"
+        ],
+        "warning_signs": [
+            "出现大量出血",
+            "发热",
+            "严重腹痛"
+        ],
+        "query_intent": "\"产后恢复情况，宫底高度U-1，子宫收缩良好，心率88次/分，血压121/75 mmHg，需要促进子宫收缩的药物吗？\""
+    },
+    {
+        "id": 13,
+        "patient_info": {
+            "name": "王**",
+            "age": "32岁",
+            "gender": "女"
+        },
+        "disease_info": [
+            "阴道出血"
+        ],
+        "department_info": "妇科",
+        "notes_info": "产后状态，宫底高度U-1，子宫收缩良好",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "产后阴道出血"
+        ],
+        "key_observations": [
+            "出血量（5ml）",
+            "子宫收缩情况（良好）",
+            "宫底高度（U-1）"
+        ],
+        "normal_indicators": [
+            "心率（85次/分钟）正常",
+            "血压（116/71 mmHg）正常",
+            "血氧（99%）正常"
+        ],
+        "possible_treatments": [
+            "可能需要止血药物或促进子宫收缩的药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测阴道出血量",
+            "观察子宫收缩情况",
+            "记录宫底高度变化"
+        ],
+        "lifestyle_changes": [
+            "保持充足休息",
+            "避免剧烈运动",
+            "注意个人卫生"
+        ],
+        "warning_signs": [
+            "出血量突然增加",
+            "出现头晕或乏力",
+            "发热或腹痛加剧"
+        ],
+        "query_intent": "\"产后阴道出血，出血量5ml，子宫收缩良好，宫底高度U-1，心率85次/分，血压116/71 mmHg，血氧99%，需要止血药物吗？\""
+    },
+    {
+        "id": 14,
+        "patient_info": {
+            "name": "叶**",
+            "age": "36岁",
+            "gender": "女"
+        },
+        "disease_info": [
+            "妊娠合并子宫瘢痕",
+            "妊娠合并梅毒",
+            "先兆临产"
+        ],
+        "department_info": "产科、皮肤性病科\n产科",
+        "notes_info": "产前待产状态",
+        "risk_info": [
+            "高龄经产妇",
+            "妊娠合并梅毒"
+        ],
+        "secondary_diagnosis_info": [
+            "高龄经产妇",
+            "孕4产1孕40+4周宫内单活胎LOA"
+        ],
+        "main_issues": [
+            "高龄产妇（36岁）且子宫有手术疤痕，需特别注意分娩安全",
+            "合并梅毒感染，需关注母婴传播风险",
+            "已出现规律宫缩（每3分钟一次），进入产程活跃期"
+        ],
+        "key_observations": [
+            "宫缩频率：每3分钟一次，持续35秒",
+            "宫颈已开5公分，胎头位置-1.5（即将进入分娩阶段）",
+            "胎心正常（146次/分钟）"
+        ],
+        "normal_indicators": [
+            "血压正常（113/64mmHg）",
+            "孕妇心率正常（84次/分钟）"
+        ],
+        "possible_treatments": [
+            "可能需要抗生素预防梅毒母婴传播",
+            "根据产程进展可能需要催产素"
+        ],
+        "important_note": "具体用药请严格遵医嘱，所有药物需经产科医生评估后使用",
+        "monitoring": [
+            "每1-2小时监测胎心",
+            "记录宫缩频率和持续时间",
+            "注意阴道出血情况"
+        ],
+        "lifestyle_changes": [
+            "保持体力，少量多次进食易消化食物",
+            "定时排尿（每2小时一次）",
+            "在助产士指导下调整呼吸和用力方式"
+        ],
+        "warning_signs": [
+            "胎心异常（持续＞160或＜120次/分钟）",
+            "剧烈腹痛不缓解",
+            "大量鲜红色出血",
+            "突然头痛或视物模糊"
+        ],
+        "query_intent": "“36岁高龄经产妇，妊娠合并子宫瘢痕和梅毒感染，现孕40+4周，规律宫缩每3分钟一次，宫颈开5公分，胎头位置-1.5，胎心146次/分，血压113/64mmHg，需要催产素或抗生素预防母婴传播吗？”"
+    },
+    {
+        "id": 15,
+        "patient_info": {
+            "name": "尹**",
+            "age": "73岁",
+            "gender": "男"
+        },
+        "disease_info": [
+            "头晕"
+        ],
+        "department_info": "神经内科、耳鼻喉科",
+        "notes_info": "深静脉血栓观察护理单显示未发现问题，护理措施为卧床休息",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者右腿可能存在深静脉血栓风险，需要密切观察"
+        ],
+        "key_observations": [
+            "右腿的小腿和大腿周径均为25cm（需对比左右腿差异）",
+            "足背动脉搏动和皮肤颜色目前正常"
+        ],
+        "normal_indicators": [
+            "足背动脉搏动正常",
+            "腿部皮肤颜色为健康淡红色"
+        ],
+        "possible_treatments": [
+            "可能需要抗凝血药物（具体需医生判断）",
+            "绝对遵医嘱用药"
+        ],
+        "important_note": "具体用药请严格遵医嘱，深静脉血栓患者不可擅自服用活血药物",
+        "monitoring": [
+            "每日测量并记录双腿周径（尤其关注右腿）",
+            "观察右腿皮肤颜色变化",
+            "触摸检查足背动脉搏动"
+        ],
+        "lifestyle_changes": [
+            "严格卧床休息，避免剧烈活动",
+            "卧床时适当抬高患肢",
+            "避免按摩或揉捏右腿"
+        ],
+        "warning_signs": [
+            "右腿突然肿胀加重",
+            "皮肤变紫或发白",
+            "出现呼吸困难或胸痛（可能是血栓脱落）",
+            "头晕症状加重"
+        ],
+        "query_intent": "\"73岁男性患者头晕，右腿可能存在深静脉血栓风险，小腿和大腿周径均为25cm，足背动脉搏动和皮肤颜色正常，需要抗凝血药物治疗吗？\""
+    },
+    {
+        "id": 16,
+        "patient_info": {
+            "name": "罗**",
+            "age": "35岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "深静脉导管植入术后维护状态，股静脉穿刺",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者当前需要注意深静脉导管的维护情况"
+        ],
+        "key_observations": [
+            "导管外露长度、穿刺点情况、导管维护操作"
+        ],
+        "normal_indicators": [
+            "导管外露长度为0cm，穿刺点无异常，大腿围43.5cm正常"
+        ],
+        "possible_treatments": [
+            "肝素盐水封管术用于防止导管堵塞"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日检查导管外露长度、穿刺点情况、大腿围变化"
+        ],
+        "lifestyle_changes": [
+            "避免剧烈运动，保持穿刺部位清洁干燥"
+        ],
+        "warning_signs": [
+            "穿刺点出现红肿、疼痛、渗液，导管外露长度变化，大腿围明显增加"
+        ],
+        "query_intent": "\"深静脉导管植入术后，导管外露0cm，穿刺点无异常，大腿围43.5cm，需要特别注意哪些维护事项？\""
+    },
+    {
+        "id": 17,
+        "patient_info": {
+            "name": "吴**",
+            "age": "87岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": null,
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "高龄患者需要特别关注基础健康问题"
+        ],
+        "key_observations": [
+            "医生尚未明确诊断，需密切关注病情变化"
+        ],
+        "normal_indicators": [
+            "暂无异常指标记录"
+        ],
+        "possible_treatments": [
+            "目前无具体用药建议"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测体温、血压、精神状态"
+        ],
+        "lifestyle_changes": [
+            "保持充足休息，适量饮水，注意保暖"
+        ],
+        "warning_signs": [
+            "出现发热、呼吸困难、意识模糊等症状应立即就医"
+        ],
+        "query_intent": "\"87岁高龄男性患者，目前无明显异常指标，需要特别关注哪些基础健康问题？\""
+    },
+    {
+        "id": 18,
+        "patient_info": {
+            "name": "何**",
+            "age": "4岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "发热（体温38.2℃），使用布洛芬混悬液，嘱多饮水",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "4岁男孩目前有发烧症状，体温38.2℃"
+        ],
+        "key_observations": [
+            "体温升高（38.2℃）",
+            "精神状态（清醒）"
+        ],
+        "normal_indicators": [
+            "神志清醒，说明没有严重意识障碍"
+        ],
+        "possible_treatments": [
+            "已服用布洛芬混悬液（退烧药）"
+        ],
+        "important_note": "具体用药请严格遵医嘱，布洛芬需按儿童剂量使用",
+        "monitoring": [
+            "每4-6小时测量一次体温",
+            "观察孩子精神状态"
+        ],
+        "lifestyle_changes": [
+            "多喝水补充水分",
+            "保持室内通风"
+        ],
+        "warning_signs": [
+            "体温超过39℃",
+            "出现嗜睡或烦躁不安",
+            "拒绝饮水或尿量明显减少",
+            "发烧持续超过3天"
+        ],
+        "query_intent": "\"4岁男孩发烧38.2℃，已服用布洛芬混悬液，还需要注意什么？\""
+    },
+    {
+        "id": 19,
+        "patient_info": {
+            "name": "杨***",
+            "age": "0岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "新生儿科护理记录，喂养种类为配方奶，喂养量60ml",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "新生儿需要密切观察生命体征和喂养情况"
+        ],
+        "key_observations": [
+            "心率（144次/分）稍快，血氧（93%）略低"
+        ],
+        "normal_indicators": [
+            "目前喂养量正常（60ml配方奶）"
+        ],
+        "possible_treatments": [
+            "可能需要吸氧支持（因血氧略低）"
+        ],
+        "important_note": "具体用药请严格遵医嘱，新生儿用药需特别谨慎",
+        "monitoring": [
+            "每小时监测心率",
+            "持续监测血氧饱和度",
+            "记录每次喂养量和反应"
+        ],
+        "lifestyle_changes": [
+            "保持适宜的环境温度",
+            "按需喂养，观察吃奶情况"
+        ],
+        "warning_signs": [
+            "血氧持续低于90%",
+            "拒奶或喂养困难",
+            "心率持续过快或过慢"
+        ],
+        "query_intent": "\"新生儿喂养量60ml配方奶，心率144次/分稍快，血氧93%略低，需要吸氧支持吗？\""
+    },
+    {
+        "id": 20,
+        "patient_info": {
+            "name": "顿**",
+            "age": "31岁",
+            "gender": "女"
+        },
+        "disease_info": [
+            "胎膜早破",
+            "先兆临产"
+        ],
+        "department_info": "产科",
+        "notes_info": "阴道出血，会阴裂伤，宫底高度U=0，子宫收缩良好",
+        "risk_info": null,
+        "secondary_diagnosis_info": [
+            "孕1产0孕40+2周宫内单活胎LOA"
+        ],
+        "main_issues": [
+            "产后阴道出血",
+            "会阴裂伤"
+        ],
+        "key_observations": [
+            "出血量（30ml）",
+            "子宫收缩情况",
+            "会阴伤口状态"
+        ],
+        "normal_indicators": [
+            "血压正常（106/62 mmHg）",
+            "脉搏正常（86次/分钟）",
+            "宫底高度正常（U=0）"
+        ],
+        "possible_treatments": [
+            "止血药物",
+            "会阴伤口护理药物",
+            "促进子宫收缩药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日观察出血量",
+            "检查会阴伤口愈合情况",
+            "监测子宫收缩状态"
+        ],
+        "lifestyle_changes": [
+            "保持会阴清洁干燥",
+            "避免剧烈运动",
+            "增加富含铁质的食物"
+        ],
+        "warning_signs": [
+            "出血量突然增加",
+            "会阴伤口红肿流脓",
+            "发热或剧烈疼痛"
+        ],
+        "query_intent": "\"31岁女性，孕40+2周胎膜早破先兆临产，产后阴道出血30ml，会阴裂伤，血压106/62mmHg，脉搏86次/分，宫底高度U=0，需要哪些治疗和护理措施？\""
+    },
+    {
+        "id": 21,
+        "patient_info": {
+            "name": "肖**",
+            "age": "49岁",
+            "gender": null
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "大便失禁或昏迷，生活部分自理（洗脸、梳头、刷牙、剃须），穿衣需一半帮助，洗澡自理",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者存在大便失禁问题，需要特别护理",
+            "穿衣需要部分帮助，日常生活能力受限"
+        ],
+        "key_observations": [
+            "大便失禁或昏迷状态",
+            "穿衣需一半帮助",
+            "洗澡能够自理"
+        ],
+        "normal_indicators": [
+            "修饰（洗脸、梳头、刷牙、剃须）能够自理",
+            "洗澡能够自理"
+        ],
+        "possible_treatments": [
+            "可能需要使用尿套或纸尿裤等护理用品",
+            "可能需要协助下床活动和如厕"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测大便情况",
+            "观察穿衣和日常活动能力的变化"
+        ],
+        "lifestyle_changes": [
+            "保持个人卫生，定期洗澡",
+            "使用尿套或纸尿裤，及时更换",
+            "在护理人员协助下进行日常活动"
+        ],
+        "warning_signs": [
+            "大便失禁加重",
+            "日常生活能力进一步下降",
+            "出现昏迷或其他异常症状"
+        ],
+        "query_intent": "\"49岁患者大便失禁，穿衣需一半帮助，洗澡自理，需要使用尿套或纸尿裤吗？\""
+    },
+    {
+        "id": 22,
+        "patient_info": {
+            "name": "曾**",
+            "age": "72岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "跌倒风险评估为轻度风险，排泄改变明显",
+        "risk_info": [
+            "尿频",
+            "尿急",
+            "夜尿＞3次/晚",
+            "腹泻＞4次/日"
+        ],
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者有轻度跌倒风险，主要由于尿频、尿急或夜尿增多"
+        ],
+        "key_observations": [
+            "医生重点关注患者的排泄情况和步态平衡"
+        ],
+        "normal_indicators": [
+            "步态和平衡正常，起立测试显示能一次简单动作起身"
+        ],
+        "possible_treatments": [
+            "可能需要调整排尿频率的药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测排尿频率和夜尿次数"
+        ],
+        "lifestyle_changes": [
+            "睡前减少液体摄入，保持卧室到卫生间的通道畅通，使用夜灯"
+        ],
+        "warning_signs": [
+            "出现头晕、步态不稳或跌倒应立即就医"
+        ],
+        "query_intent": "\"72岁男性患者，有轻度跌倒风险，主要表现为尿频、尿急、夜尿＞3次/晚，腹泻＞4次/日，步态和平衡正常，需要调整排尿频率的药物吗？\""
+    },
+    {
+        "id": 23,
+        "patient_info": {
+            "name": "邓**",
+            "age": "14岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "体温38.2℃（发热），心率105次/min（心动过速）",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者目前有发烧症状，体温38.2℃"
+        ],
+        "key_observations": [
+            "体温升高（38.2℃）、脉搏加快（105次/分钟）"
+        ],
+        "normal_indicators": [
+            "暂无其他异常指标记录"
+        ],
+        "possible_treatments": [
+            "可能需要退烧药治疗"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每4小时测量一次体温",
+            "注意监测脉搏变化"
+        ],
+        "lifestyle_changes": [
+            "多喝水保持水分",
+            "注意休息，避免剧烈运动"
+        ],
+        "warning_signs": [
+            "体温超过38.5℃持续不降",
+            "出现意识模糊或其他不适症状"
+        ],
+        "query_intent": "\"14岁男孩发烧38.2℃，心率105次/分，需要服用退烧药吗？\""
+    },
+    {
+        "id": 24,
+        "patient_info": {
+            "name": "朱**",
+            "age": "0岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "新生儿科护理记录，外周静脉输液畅，臀部护理（氧化锌）",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "新生儿心率过快（153次/分钟）"
+        ],
+        "key_observations": [
+            "心率过高（正常新生儿心率通常在120-160次/分钟）",
+            "外周静脉输液情况"
+        ],
+        "normal_indicators": [
+            "血氧正常（95%）",
+            "臀部护理正常"
+        ],
+        "possible_treatments": [
+            "可能需要调整输液速度或药物",
+            "使用氧化锌进行臀部护理"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每小时监测心率",
+            "观察输液部位情况",
+            "检查臀部皮肤状况"
+        ],
+        "lifestyle_changes": [
+            "保持舒适体位",
+            "注意保暖",
+            "按需喂养"
+        ],
+        "warning_signs": [
+            "心率持续超过160次/分钟",
+            "血氧低于90%",
+            "输液部位红肿",
+            "臀部皮肤发红加重"
+        ],
+        "query_intent": "\"新生儿心率153次/分，血氧95%，需要调整输液速度吗？臀部使用氧化锌护理是否合适？\""
+    },
+    {
+        "id": 25,
+        "patient_info": {
+            "name": "张**",
+            "age": "41岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "深静脉导管植入术后状态",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "深静脉导管植入术后维护"
+        ],
+        "key_observations": [
+            "导管放置日期（2022-11-02）"
+        ],
+        "normal_indicators": [
+            "无异常症状报告"
+        ],
+        "possible_treatments": [
+            "导管维护护理"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "导管周围皮肤状况",
+            "是否有红肿或渗液"
+        ],
+        "lifestyle_changes": [
+            "保持导管部位清洁干燥",
+            "避免剧烈运动以防导管移位"
+        ],
+        "warning_signs": [
+            "发热",
+            "导管部位剧烈疼痛或红肿加重",
+            "导管移位或脱落"
+        ],
+        "query_intent": "\"深静脉导管植入术后如何维护？导管放置于2022年11月2日，需要注意哪些事项？\""
+    },
+    {
+        "id": 26,
+        "patient_info": {
+            "name": "黄**",
+            "age": "67岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "无明确诊断信息，血压监测显示收缩压129mmHg，舒张压59mmHg",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "需要关注出入量平衡（摄入和排出液体量）"
+        ],
+        "key_observations": [
+            "血压（收缩压129，舒张压59）",
+            "心率（71次/分钟）",
+            "24小时出入量（入量2964ml，出量2100ml）"
+        ],
+        "normal_indicators": [
+            "心率正常（71次/分钟）",
+            "收缩压正常（129）"
+        ],
+        "possible_treatments": [
+            "可能需要调整液体摄入量或利尿剂（需医生评估）"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测血压",
+            "记录24小时出入量"
+        ],
+        "lifestyle_changes": [
+            "保持适量水分摄入",
+            "避免突然改变体位以防头晕"
+        ],
+        "warning_signs": [
+            "出现头晕、乏力、尿量明显减少或增多"
+        ],
+        "query_intent": "\"67岁男性，收缩压129mmHg，舒张压59mmHg，心率71次/分，24小时出入量入量2964ml出量2100ml，需要调整液体摄入量或利尿剂吗？\""
+    },
+    {
+        "id": 27,
+        "patient_info": {
+            "name": "黄**",
+            "age": "72岁",
+            "gender": "男"
+        },
+        "disease_info": [
+            "感染性休克"
+        ],
+        "department_info": "重症医学科、急诊科",
+        "notes_info": "意识障碍不伴谵妄躁动，心理状态平静，解除约束状态",
+        "risk_info": [
+            "卧床，无自主活动",
+            "不能理解",
+            "高度风险"
+        ],
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者目前处于意识不清醒状态，无法自主活动或理解他人",
+            "存在高度风险的导管意外脱落（如鼻饲管、氧气管等）"
+        ],
+        "key_observations": [
+            "医生重点关注导管固定情况和患者意识状态",
+            "需警惕感染性休克可能引起的血压波动"
+        ],
+        "normal_indicators": [
+            "导管周围皮肤正常，无伤口感染",
+            "患者目前无疼痛不适感"
+        ],
+        "possible_treatments": [
+            "可能需要抗生素治疗感染",
+            "可能需要维持血压的药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每班检查导管位置和固定情况",
+            "观察患者意识状态变化",
+            "监测体温和血压"
+        ],
+        "lifestyle_changes": [
+            "保持卧床休息",
+            "定期轻柔翻身，防止压疮"
+        ],
+        "warning_signs": [
+            "导管脱落或移位",
+            "出现发热或寒战",
+            "意识状态进一步恶化"
+        ],
+        "query_intent": "“72岁男性患者，感染性休克，意识障碍不伴谵妄躁动，卧床无自主活动，存在高度导管脱落风险，需要如何预防导管脱落和维持血压？”"
+    },
+    {
+        "id": 28,
+        "patient_info": {
+            "name": "李**",
+            "age": "54岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "患者基本生活活动能力评定量表（BADL）显示重度依赖，需全面护理支持",
+        "risk_info": [
+            "重度依赖"
+        ],
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者生活完全依赖他人照顾，无法自理"
+        ],
+        "key_observations": [
+            "大小便控制困难",
+            "进食、转移、洗澡等日常活动完全依赖他人"
+        ],
+        "normal_indicators": [
+            "无特别正常指标说明，患者处于重度依赖状态"
+        ],
+        "possible_treatments": [
+            "可能需要导尿辅助",
+            "可能需要皮肤护理药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测皮肤状况",
+            "观察大小便情况"
+        ],
+        "lifestyle_changes": [
+            "保持肛周皮肤清洁干燥",
+            "定期翻身防止褥疮",
+            "注意口腔卫生"
+        ],
+        "warning_signs": [
+            "皮肤出现红肿溃烂",
+            "发热",
+            "大小便异常增多或减少"
+        ],
+        "query_intent": "\"54岁女性患者生活完全依赖他人照顾，BADL显示重度依赖，大小便控制困难，进食、转移、洗澡等日常活动完全依赖他人，需要导尿和皮肤护理药物吗？\""
+    },
+    {
+        "id": 29,
+        "patient_info": {
+            "name": null,
+            "age": "",
+            "gender": null
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "术前准备状态，无既往病史，新型冠状病毒核酸检测阴性",
+        "risk_info": [
+            "轻度跌倒风险"
+        ],
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者即将进行手术，需做好术前准备"
+        ],
+        "key_observations": [
+            "术前用药（阿托品0.5肌注）",
+            "手术部位标识已确认",
+            "术前禁食",
+            "跌倒风险轻度（2分）"
+        ],
+        "normal_indicators": [
+            "体温正常（36.3℃）",
+            "心率正常（78次/分）",
+            "呼吸正常（18次/分）",
+            "血压正常（132/71 mmHg）",
+            "新型冠状病毒核酸检测阴性",
+            "无皮肤损伤",
+            "无药物过敏"
+        ],
+        "possible_treatments": [
+            "术前用药阿托品（需医生指导使用）"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "注意手术部位标识",
+            "观察跌倒风险"
+        ],
+        "lifestyle_changes": [
+            "术前禁食",
+            "避免剧烈活动以防跌倒"
+        ],
+        "warning_signs": [
+            "手术部位出现异常疼痛或红肿",
+            "出现头晕或跌倒"
+        ],
+        "query_intent": "“患者术前准备状态，轻度跌倒风险2分，术前用药阿托品0.5肌注，需要注意什么？”"
+    },
+    {
+        "id": 30,
+        "patient_info": {
+            "name": "谢**",
+            "age": "51岁",
+            "gender": "男"
+        },
+        "disease_info": [
+            "慢性肾脏病5期",
+            "低血压状态",
+            "继发性甲状旁腺功能亢进"
+        ],
+        "department_info": "肾内科、心血管内科、内分泌科",
+        "notes_info": "无不适，风险等级低度风险",
+        "risk_info": [
+            "维持性血液透析"
+        ],
+        "secondary_diagnosis_info": [
+            "肾性贫血",
+            "乙肝病毒携带"
+        ],
+        "main_issues": [
+            "慢性肾脏病晚期需要定期透析",
+            "经常出现低血压",
+            "甲状旁腺功能异常"
+        ],
+        "key_observations": [
+            "血压情况（当前处于低血压状态）",
+            "透析治疗情况",
+            "甲状旁腺功能"
+        ],
+        "normal_indicators": [
+            "意识清醒，心理状态平稳",
+            "活动能力正常，能自主下床活动",
+            "无疼痛不适感",
+            "导管周围皮肤正常，无感染迹象"
+        ],
+        "possible_treatments": [
+            "肾脏病相关药物（需严格遵医嘱调整剂量）",
+            "血压调节药物",
+            "甲状旁腺功能调节药物",
+            "贫血治疗药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱，透析患者药物剂量需特别调整",
+        "monitoring": [
+            "每日血压测量",
+            "透析后身体反应",
+            "有无头晕、乏力等低血压症状"
+        ],
+        "lifestyle_changes": [
+            "控制水分摄入（根据透析安排）",
+            "低盐、低磷、优质蛋白饮食",
+            "避免突然起身防止低血压",
+            "保持适度活动"
+        ],
+        "warning_signs": [
+            "严重头晕或昏倒",
+            "呼吸困难",
+            "持续恶心呕吐",
+            "导管部位红肿疼痛",
+            "意识状态改变"
+        ],
+        "query_intent": "\"51岁男性慢性肾脏病5期患者，维持性血液透析中，经常出现低血压状态，伴有继发性甲状旁腺功能亢进和肾性贫血，目前无不适主诉，需要如何调整透析方案和药物管理？\""
+    },
+    {
+        "id": 31,
+        "patient_info": {
+            "name": "罗**",
+            "age": null,
+            "gender": null
+        },
+        "disease_info": [],
+        "department_info": "未知",
+        "notes_info": "剖宫产分娩，母亲有流产史，新生儿有复苏抢救史，脐部水脐，胎粪和小便已排，注射乙肝疫苗、卡介苗、乙肝免疫球蛋白、维生素K1，完成新生儿筛查和听力筛查",
+        "risk_info": [
+            "不良妊娠史",
+            "脐带缠绕",
+            "脐带扭转",
+            "产瘤",
+            "RH阴性"
+        ],
+        "secondary_diagnosis_info": [],
+        "main_issues": [
+            "新生儿有脐带缠绕和脐带扭转情况，需密切监测呼吸和心率",
+            "母亲RH阴性血型，需警惕新生儿溶血风险",
+            "新生儿出生时进行了复苏抢救，需观察后续恢复情况"
+        ],
+        "key_observations": [
+            "脐部情况（水脐）",
+            "胎粪和小便排出情况",
+            "呼吸、心率和肤色"
+        ],
+        "normal_indicators": [
+            "胎粪和小便已正常排出",
+            "已完成常规疫苗接种（乙肝疫苗、卡介苗等）",
+            "听力筛查已完成"
+        ],
+        "possible_treatments": [
+            "可能需要监测胆红素水平（针对RH阴性风险）",
+            "可能需要观察脐部护理情况"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测脐部情况",
+            "观察喂养情况和大小便",
+            "注意皮肤颜色变化"
+        ],
+        "lifestyle_changes": [
+            "保持脐部清洁干燥",
+            "按需喂养，注意观察吸吮力",
+            "注意保暖但避免过热"
+        ],
+        "warning_signs": [
+            "脐部发红、渗液或出血",
+            "皮肤明显发黄",
+            "喂养困难或反应差",
+            "呼吸急促或困难"
+        ],
+        "query_intent": "\"剖宫产分娩的新生儿有脐带缠绕和扭转，母亲RH阴性血型，出生时进行了复苏抢救，目前胎粪和小便已排，已完成常规疫苗接种和听力筛查，需要监测胆红素水平和脐部护理吗？\""
+    },
+    {
+        "id": 32,
+        "patient_info": {
+            "name": "张*",
+            "age": "36岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "患者由门诊步行入院，行入院相关知识宣教。营养风险评估3分，有营养不良风险，提醒医生制定营养计划，行饮食宣教及功能锻炼。患者VTE评分0分，无风险。已向患者行新冠及陪人相关知识宣教。",
+        "risk_info": [
+            "营养不良风险"
+        ],
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "营养摄入不足风险",
+            "需要制定营养计划"
+        ],
+        "key_observations": [
+            "血压偏低（95/58）",
+            "营养风险评分3分"
+        ],
+        "normal_indicators": [
+            "体温正常（36.7℃）",
+            "呼吸正常（20次/分）",
+            "无血栓风险"
+        ],
+        "possible_treatments": [
+            "可能需要营养补充剂"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日血压",
+            "饮食摄入量"
+        ],
+        "lifestyle_changes": [
+            "增加营养饮食",
+            "适当功能锻炼"
+        ],
+        "warning_signs": [
+            "头晕乏力加重",
+            "血压持续下降"
+        ],
+        "query_intent": "\"36岁女性患者，营养风险评估3分，血压95/58，需要制定营养计划吗？\""
+    },
+    {
+        "id": 33,
+        "patient_info": {
+            "name": "王**",
+            "age": "32岁",
+            "gender": "女"
+        },
+        "disease_info": [
+            "胎膜早破"
+        ],
+        "department_info": "产科",
+        "notes_info": "羊水清，宫颈管长1cm，组织厚，骶骨弓低，后三角无异常",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "胎膜早破（羊水已破，但宫颈尚未完全扩张）"
+        ],
+        "key_observations": [
+            "宫颈管长度1cm，组织较厚，胎头位置较低（-2.5）"
+        ],
+        "normal_indicators": [
+            "羊水清澈，后三角区无异常"
+        ],
+        "possible_treatments": [
+            "可能需要抗生素预防感染",
+            "可能需要催产素促进宫缩"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "注意宫缩频率和强度",
+            "观察羊水颜色和量",
+            "监测体温（预防感染）"
+        ],
+        "lifestyle_changes": [
+            "卧床休息，避免剧烈活动",
+            "保持会阴部清洁"
+        ],
+        "warning_signs": [
+            "发热或寒战",
+            "羊水变浑浊或有异味",
+            "阴道出血量突然增加"
+        ],
+        "query_intent": "\"32岁孕妇胎膜早破，羊水清，宫颈管长1cm组织厚，胎头位置-2.5，需要抗生素和催产素吗？\""
+    },
+    {
+        "id": 34,
+        "patient_info": {
+            "name": "黄****",
+            "age": "0岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "新生儿护理记录，喂养种类为配方奶，吸吮力好，基础护理为臀部护理",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "新生儿需要特别注意喂养和基础护理"
+        ],
+        "key_observations": [
+            "心率（141次/分钟）",
+            "血氧饱和度（93%）"
+        ],
+        "normal_indicators": [
+            "吸吮力好",
+            "喂养量正常（25ml）"
+        ],
+        "possible_treatments": [
+            "臀部护理（使用氧化锌）"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "心率",
+            "血氧饱和度",
+            "喂养量"
+        ],
+        "lifestyle_changes": [
+            "保持温箱环境稳定",
+            "按时喂养配方奶"
+        ],
+        "warning_signs": [
+            "吸吮力减弱",
+            "血氧饱和度下降",
+            "心率异常"
+        ],
+        "query_intent": "“新生儿配方奶喂养，吸吮力好，心率141次/分，血氧93%，臀部护理需要注意什么？”"
+    },
+    {
+        "id": 35,
+        "patient_info": {
+            "name": "许**",
+            "age": "48岁",
+            "gender": "男"
+        },
+        "disease_info": [
+            "脑内出血"
+        ],
+        "department_info": "神经外科",
+        "notes_info": "足背动脉搏动变弱，皮肤温度灼热，护理措施包括抬高患肢、穿弹力袜、使用抗凝药等",
+        "risk_info": [],
+        "secondary_diagnosis_info": [],
+        "main_issues": [
+            "下肢血液循环不良，可能有血栓风险"
+        ],
+        "key_observations": [
+            "足背动脉搏动变弱",
+            "皮肤温度灼热"
+        ],
+        "normal_indicators": [
+            "无肿胀",
+            "Homan’s征阴性（无血栓典型症状）"
+        ],
+        "possible_treatments": [
+            "抗凝药物（防止血栓形成）"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日检查足背动脉搏动",
+            "观察皮肤温度和颜色变化"
+        ],
+        "lifestyle_changes": [
+            "保持患肢抬高（高于心脏20-30cm）",
+            "穿弹力袜",
+            "避免按摩、热敷或下肢静脉穿刺"
+        ],
+        "warning_signs": [
+            "突然出现下肢肿胀或疼痛",
+            "皮肤发紫或变冷",
+            "呼吸困难或胸痛（可能是血栓脱落征兆）"
+        ],
+        "query_intent": "\"48岁男性脑内出血患者，足背动脉搏动变弱，皮肤温度灼热，无肿胀，Homan’s征阴性，需要继续抗凝治疗吗？\""
+    },
+    {
+        "id": 36,
+        "patient_info": {
+            "name": "陈***",
+            "age": "0岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "新生儿科护理记录",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "新生儿需要特别护理和观察"
+        ],
+        "key_observations": [
+            "医生会重点关注新生儿的体温、呼吸、喂养情况等"
+        ],
+        "normal_indicators": [
+            "如果体温、呼吸、血氧等指标在正常范围内，说明新生儿状态良好"
+        ],
+        "possible_treatments": [
+            "可能需要使用新生儿专用药物，如维生素K等"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测体温、呼吸频率、喂养量"
+        ],
+        "lifestyle_changes": [
+            "保持适宜的环境温度，按需喂养，注意清洁卫生"
+        ],
+        "warning_signs": [
+            "出现体温异常、呼吸急促、拒奶、皮肤发黄等症状应立即就医"
+        ],
+        "query_intent": "“新生儿需要特别护理和观察，体温、呼吸、血氧等指标正常，需要使用维生素K吗？”"
+    },
+    {
+        "id": 37,
+        "patient_info": {
+            "name": "冯**",
+            "age": "77岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "跌倒风险评估为中度风险，护理措施包括预防跌倒的注意事项、步态不稳需陪同、加强巡视等",
+        "risk_info": [
+            "尿频、尿急/夜尿＞3次/晚或腹泻＞4次/日",
+            "视力模糊",
+            "多重使用特殊：≥2种",
+            "行走时步态不稳"
+        ],
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者有中度跌倒风险，主要由于步态不稳和尿频/尿急问题",
+            "视力模糊但未严重影响日常生活",
+            "正在服用多种药物"
+        ],
+        "key_observations": [
+            "步态不稳（行走时容易失去平衡）",
+            "夜间排尿频繁（每晚超过3次）",
+            "多重用药情况（同时使用2种以上特殊药物）"
+        ],
+        "normal_indicators": [
+            "起立测试正常（能一次成功撑起）",
+            "治疗依从性好（能按医嘱配合治疗）"
+        ],
+        "possible_treatments": [
+            "可能需要调整尿频症状的药物",
+            "可能需要评估多重用药的相互作用"
+        ],
+        "important_note": "具体用药请严格遵医嘱，不要自行调整药物",
+        "monitoring": [
+            "每日注意步态变化",
+            "记录夜间排尿次数"
+        ],
+        "lifestyle_changes": [
+            "改变体位时要慢（遵循三个半分钟原则）",
+            "穿合身衣物和防滑鞋",
+            "下床前先坐床边2分钟",
+            "穿脱鞋袜时要坐着进行",
+            "保持室内光线充足、地面干燥",
+            "加强肌肉训练"
+        ],
+        "warning_signs": [
+            "出现头晕或站立不稳加重",
+            "夜间频繁起床时感到眩晕",
+            "出现新的跌倒情况"
+        ],
+        "query_intent": "\"77岁男性患者有中度跌倒风险，主要由于步态不稳、尿频尿急和多重用药，视力模糊但未严重影响生活，起立测试正常，需要调整尿频药物或评估药物相互作用吗？\""
+    },
+    {
+        "id": 38,
+        "patient_info": {
+            "name": "宁*",
+            "age": "36岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "产后状态，会阴水肿，跌倒评分9分（轻度危险），营养筛查评分<3分，VTE低度风险，Braden评分21分（轻度依赖）",
+        "risk_info": [
+            "HBSAg(+)"
+        ],
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "产后会阴水肿",
+            "跌倒轻度风险",
+            "HBSAg阳性（乙肝携带者）"
+        ],
+        "key_observations": [
+            "会阴水肿情况",
+            "跌倒风险评分",
+            "乙肝携带状态"
+        ],
+        "normal_indicators": [
+            "体温36.9℃正常",
+            "脉搏78次/分钟正常",
+            "呼吸20次/分钟正常",
+            "血压125/74正常",
+            "子宫收缩良好"
+        ],
+        "possible_treatments": [
+            "会阴消肿护理",
+            "预防跌倒措施",
+            "乙肝携带者特殊护理"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "会阴水肿情况",
+            "每日跌倒风险评估",
+            "体温监测"
+        ],
+        "lifestyle_changes": [
+            "进行踝泵运动促进血液循环",
+            "保持均衡营养饮食",
+            "在协助下进行适度活动"
+        ],
+        "warning_signs": [
+            "会阴水肿加重",
+            "出现头晕或跌倒",
+            "发热超过38℃"
+        ],
+        "query_intent": "\"产后会阴水肿，跌倒评分9分（轻度危险），HBSAg阳性，需要哪些特殊护理？\""
+    },
+    {
+        "id": 39,
+        "patient_info": {
+            "name": "陈**",
+            "age": "72岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "跌倒风险评估为中度风险，主诉轻度头晕、视力模糊、身体虚弱",
+        "risk_info": [
+            "中度风险"
+        ],
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者有中度跌倒风险，需要特别注意防止跌倒"
+        ],
+        "key_observations": [
+            "轻度头晕",
+            "身体虚弱",
+            "视力模糊"
+        ],
+        "normal_indicators": [
+            "步态/平衡正常",
+            "起立测试一次成功"
+        ],
+        "possible_treatments": [
+            "可能需要改善头晕或虚弱的药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日注意头晕情况",
+            "观察身体虚弱程度"
+        ],
+        "lifestyle_changes": [
+            "改变体位时要慢（如三个半分钟）",
+            "下床前床边悬摆双脚至少2分钟",
+            "穿脱袜子、鞋、裤子应取坐位",
+            "穿合身衣物，避免滑底鞋",
+            "确保室内和浴室灯光明亮，地板干燥",
+            "保持行人道通畅，没有障碍物"
+        ],
+        "warning_signs": [
+            "头晕加重",
+            "步态不稳",
+            "跌倒"
+        ],
+        "query_intent": "\"72岁女性，中度跌倒风险，有轻度头晕、视力模糊和身体虚弱，步态平衡正常，起立测试一次成功，需要改善头晕或虚弱的药物吗？\""
+    },
+    {
+        "id": 40,
+        "patient_info": {
+            "name": "汪*",
+            "age": "32岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "产妇诉无法自解小便，查体膀胱充盈，体温38.8℃",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "产妇发烧38.8℃，且无法自行排尿，膀胱充盈"
+        ],
+        "key_observations": [
+            "高烧（38.8℃）",
+            "排尿困难",
+            "膀胱充盈"
+        ],
+        "normal_indicators": [
+            "暂无其他异常指标记录"
+        ],
+        "possible_treatments": [
+            "可能需要退烧药物",
+            "可能需要导尿处理"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每4小时测量体温",
+            "观察排尿情况"
+        ],
+        "lifestyle_changes": [
+            "多喝水",
+            "保持会阴部清洁"
+        ],
+        "warning_signs": [
+            "体温持续升高",
+            "完全无法排尿",
+            "出现剧烈腹痛"
+        ],
+        "query_intent": "\"产妇发烧38.8℃且无法自行排尿，膀胱充盈，需要导尿和退烧处理吗？\""
+    },
+    {
+        "id": 41,
+        "patient_info": {
+            "name": "黄****",
+            "age": "0岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "非喷射性吐奶一次，量少",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "新生儿吐奶（非喷射性，量少）"
+        ],
+        "key_observations": [
+            "心率（107次/分钟）",
+            "血氧饱和度（96%）"
+        ],
+        "normal_indicators": [
+            "血氧饱和度正常（96%）",
+            "心率在新生儿正常范围内（107次/分钟）"
+        ],
+        "possible_treatments": [
+            "可能需要调整喂养方式或少量多次喂养以减少吐奶"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "观察吐奶频率和量",
+            "监测心率和血氧饱和度"
+        ],
+        "lifestyle_changes": [
+            "采用少量多次的喂养方式",
+            "喂养后保持婴儿直立姿势一段时间"
+        ],
+        "warning_signs": [
+            "吐奶量增加或呈喷射状",
+            "呼吸急促或困难",
+            "皮肤颜色变青紫"
+        ],
+        "query_intent": "“新生儿非喷射性吐奶一次，量少，心率107次/分，血氧96%，需要调整喂养方式吗？”"
+    },
+    {
+        "id": 42,
+        "patient_info": {
+            "name": "陈**",
+            "age": "75岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "卧床休息，24h留陪护；抬高床头30度，抬高床尾15度；床上使用尿壶排尿；行踝泵运动、股四头肌运动5-10分钟QID",
+        "risk_info": [
+            "高危跌倒",
+            "防压疮护理",
+            "预防双下肢DVT"
+        ],
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者需要特别注意跌倒风险，因年龄较大且可能有头晕、视物模糊等症状",
+            "需要预防下肢深静脉血栓形成（DVT）",
+            "需要预防压疮（长期卧床可能导致皮肤受压损伤）"
+        ],
+        "key_observations": [
+            "头晕、视物模糊情况",
+            "活动后气促、咳嗽、咳痰情况",
+            "皮肤受压情况（预防压疮）",
+            "电解质水平"
+        ],
+        "normal_indicators": [
+            "尿液排出量正常（300ml）",
+            "目前没有记录到发热或其他急性症状"
+        ],
+        "possible_treatments": [
+            "可能需要电解质调节药物（根据检查结果）",
+            "可能需要预防血栓的药物（遵医嘱）"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日观察头晕、视物模糊情况",
+            "检查皮肤是否有压红或破损",
+            "记录活动后是否有气促"
+        ],
+        "lifestyle_changes": [
+            "严格卧床休息，床头抬高30度，床尾抬高15度",
+            "床上使用尿壶，起床时做到'三个半分钟'（慢慢起身）",
+            "穿防滑鞋，下床必须有人搀扶",
+            "沐浴时采用坐位，需专人协助",
+            "每天进行踝泵运动和股四头肌运动4次，每次5-10分钟"
+        ],
+        "warning_signs": [
+            "头晕加重或持续不缓解",
+            "突然出现严重气促",
+            "皮肤出现压疮迹象（发红、破损）",
+            "下肢肿胀、疼痛（可能提示血栓）"
+        ],
+        "query_intent": "\"75岁男性卧床患者，床头抬高30度，床尾抬高15度，有高危跌倒风险，需要预防DVT和压疮，目前尿液排出量正常，无发热，如何进行护理和预防措施？\""
+    },
+    {
+        "id": 43,
+        "patient_info": {
+            "name": "黄****",
+            "age": null,
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "新生儿护理记录，生命体征正常（SPO² 100%，HR 152次/分，哭声响亮，皮肤红润）",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "新生儿心率较快"
+        ],
+        "key_observations": [
+            "医生重点关注心率（152次/分）"
+        ],
+        "normal_indicators": [
+            "血氧正常（100%）、哭声响亮、皮肤颜色红润"
+        ],
+        "possible_treatments": [
+            "可能不需要用药，需医生进一步检查"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "需要每日监测心率、血氧、哭声和皮肤颜色"
+        ],
+        "lifestyle_changes": [
+            "保持新生儿温暖，按需喂养"
+        ],
+        "warning_signs": [
+            "出现哭声微弱、皮肤发紫、血氧下降应立即就医"
+        ],
+        "query_intent": "\"新生儿心率152次/分，血氧100%，哭声响亮皮肤红润，需要用药治疗吗？\""
+    },
+    {
+        "id": 44,
+        "patient_info": {
+            "name": "黎**",
+            "age": "61岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "患者恶心呕吐一次胃内容物，血压偏高（157/89 mmHg），脉搏90次/min，SpO2 96%",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者出现恶心呕吐，需要密切关注",
+            "血压偏高，需注意控制"
+        ],
+        "key_observations": [
+            "血压（157/89）",
+            "恶心呕吐情况"
+        ],
+        "normal_indicators": [
+            "血氧正常（96%）",
+            "心率正常（90次/分钟）"
+        ],
+        "possible_treatments": [
+            "可能需要的止吐药物",
+            "降压药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测血压",
+            "观察恶心呕吐情况"
+        ],
+        "lifestyle_changes": [
+            "保持清淡饮食，少量多餐",
+            "避免剧烈运动"
+        ],
+        "warning_signs": [
+            "持续恶心呕吐",
+            "血压持续升高",
+            "出现头晕、头痛等症状"
+        ],
+        "query_intent": "\"61岁女性患者恶心呕吐一次胃内容物，血压157/89 mmHg，脉搏90次/分，血氧96%，需要止吐和降压治疗吗？\""
+    },
+    {
+        "id": 45,
+        "patient_info": {
+            "name": "王*",
+            "age": "31岁",
+            "gender": "女"
+        },
+        "disease_info": [
+            "妊娠期糖尿病"
+        ],
+        "department_info": "产科、内分泌科",
+        "notes_info": "产前待产状态",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "妊娠期糖尿病（孕期血糖偏高）"
+        ],
+        "key_observations": [
+            "血糖控制情况",
+            "胎方位（LOA表示胎位正常）"
+        ],
+        "normal_indicators": [
+            "胎位正常（LOA）"
+        ],
+        "possible_treatments": [
+            "可能需要胰岛素治疗",
+            "饮食控制"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日血糖监测",
+            "胎动情况"
+        ],
+        "lifestyle_changes": [
+            "低糖饮食",
+            "适量运动"
+        ],
+        "warning_signs": [
+            "血糖持续偏高",
+            "胎动异常减少",
+            "头晕眼花"
+        ],
+        "query_intent": "\"31岁孕妇妊娠期糖尿病，血糖偏高，胎位正常（LOA），需要胰岛素治疗吗？饮食和运动有什么建议？\""
+    },
+    {
+        "id": 46,
+        "patient_info": {
+            "name": "邬**",
+            "age": "46岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "神志清醒，予尿道口护理",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "需要关注尿道口护理情况"
+        ],
+        "key_observations": [
+            "心率稍快（97次/分钟）",
+            "尿液排出量（115ml）"
+        ],
+        "normal_indicators": [
+            "血压正常（113/74）",
+            "呼吸正常（16次/分钟）",
+            "神志清醒"
+        ],
+        "possible_treatments": [
+            "可能需要尿道口护理药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测心率",
+            "记录尿液排出量"
+        ],
+        "lifestyle_changes": [
+            "保持尿道口清洁",
+            "适量饮水"
+        ],
+        "warning_signs": [
+            "出现尿痛、尿频或发热等症状应立即就医"
+        ],
+        "query_intent": "\"46岁女性患者神志清醒，心率97次/分，血压113/74，呼吸16次/分，尿液排出量115ml，需要尿道口护理药物吗？\""
+    },
+    {
+        "id": 47,
+        "patient_info": {
+            "name": "王*",
+            "age": "31岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "产妇在腰硬联合麻醉下行子宫下段剖宫产术，术毕安返病房，腹部伤口加压沙袋，心电监护中",
+        "risk_info": [
+            "轻度跌倒风险",
+            "轻度Braden风险",
+            "低度VTE风险",
+            "低度非计划性拔管风险"
+        ],
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "剖宫产术后恢复",
+            "轻度跌倒风险",
+            "轻度压疮风险"
+        ],
+        "key_observations": [
+            "心率偏低（36次/分钟）",
+            "体温偏低（35.6℃）",
+            "术后伤口护理"
+        ],
+        "normal_indicators": [
+            "乙肝表面抗原阴性（HBSAg阴性）",
+            "VTE血栓风险低",
+            "营养状况良好"
+        ],
+        "possible_treatments": [
+            "术后镇痛药物",
+            "预防性抗生素"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "体温",
+            "心率",
+            "伤口情况",
+            "阴道出血量"
+        ],
+        "lifestyle_changes": [
+            "保持伤口清洁干燥",
+            "遵医嘱进行踝泵运动",
+            "清淡易消化饮食",
+            "避免剧烈活动",
+            "使用防跌倒辅助器具"
+        ],
+        "warning_signs": [
+            "伤口红肿渗液",
+            "发热超过38℃",
+            "大量阴道出血",
+            "严重头晕或跌倒"
+        ],
+        "query_intent": "\"剖宫产术后产妇心率36次/分，体温35.6℃，需要特殊处理吗？\""
+    },
+    {
+        "id": 48,
+        "patient_info": {
+            "name": "吴*",
+            "age": "47岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "深静脉导管植入术后维护状态，锁骨下输液港",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "深静脉导管植入术后的维护情况"
+        ],
+        "key_observations": [
+            "穿刺点是否正常",
+            "是否需要拔管",
+            "导管类型和放置日期"
+        ],
+        "normal_indicators": [
+            "穿刺点正常",
+            "无需拔管"
+        ],
+        "possible_treatments": [
+            "脉冲式冲管",
+            "肝素盐水封管术"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日检查穿刺点是否有红肿、渗液",
+            "观察导管是否通畅"
+        ],
+        "lifestyle_changes": [
+            "避免剧烈运动以防导管移位",
+            "保持穿刺点干燥清洁"
+        ],
+        "warning_signs": [
+            "穿刺点红肿、疼痛或渗液",
+            "导管堵塞或移位",
+            "发热或寒战"
+        ],
+        "query_intent": "\"深静脉导管植入术后锁骨下输液港维护，穿刺点正常，需要脉冲式冲管和肝素盐水封管吗？\""
+    },
+    {
+        "id": 49,
+        "patient_info": {
+            "name": "邹**",
+            "age": "54岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "跌倒风险评估高度风险，需采取多项预防跌倒护理措施",
+        "risk_info": [
+            "高度风险",
+            "身体虚弱且下肢乏力",
+            "一年内跌倒1次"
+        ],
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者有较高的跌倒风险，需要特别注意预防跌倒"
+        ],
+        "key_observations": [
+            "身体虚弱且下肢乏力",
+            "一年内曾跌倒1次"
+        ],
+        "normal_indicators": [
+            "步态和平衡正常",
+            "起立测试一次成功"
+        ],
+        "possible_treatments": [
+            "可能需要增强肌肉力量的药物或补充营养"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日注意观察身体虚弱和乏力情况",
+            "注意是否有头晕或平衡不稳的情况"
+        ],
+        "lifestyle_changes": [
+            "改变体位时要缓慢，遵循三个半分钟原则",
+            "穿合身衣物和防滑鞋",
+            "下床前先在床边坐2分钟",
+            "需要有人协助时才能下床活动"
+        ],
+        "warning_signs": [
+            "频繁头晕",
+            "突然失去平衡",
+            "无法自行站立"
+        ],
+        "query_intent": "“54岁女性，身体虚弱下肢乏力，一年内跌倒1次，步态平衡正常，起立测试一次成功，需要增强肌肉力量的药物吗？”"
+    },
+    {
+        "id": 50,
+        "patient_info": {
+            "name": "王**",
+            "age": "30岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "缩宫素静脉点滴观察中，宫缩25-30秒/2-3分，胎心149次/分，宫口扩张1cm，先露高低-2cm，羊水清",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "孕妇正在进行缩宫素点滴引产，宫缩频率和强度需要密切关注"
+        ],
+        "key_observations": [
+            "宫缩情况（25-30秒/次，间隔2-3分钟）",
+            "胎心率（149次/分）",
+            "宫口扩张程度（1cm）",
+            "先露位置（-2cm）"
+        ],
+        "normal_indicators": [
+            "胎心率正常（正常范围110-160次/分）",
+            "羊水性状正常（清亮）"
+        ],
+        "possible_treatments": [
+            "缩宫素静脉点滴（当前滴速40滴/分）"
+        ],
+        "important_note": "具体用药请严格遵医嘱，缩宫素使用需专业医护人员全程监护",
+        "monitoring": [
+            "宫缩频率和持续时间",
+            "胎心率变化",
+            "宫口扩张进度",
+            "先露下降情况"
+        ],
+        "lifestyle_changes": [
+            "保持舒适体位",
+            "适当活动促进产程进展",
+            "及时补充水分和能量"
+        ],
+        "warning_signs": [
+            "宫缩过频（超过5次/10分钟）或过强",
+            "胎心异常（<110或>160次/分）",
+            "阴道出血增多",
+            "剧烈腹痛",
+            "自觉不适加重"
+        ],
+        "query_intent": "\"孕妇30岁，缩宫素点滴引产中，宫缩25-30秒/2-3分，胎心149次/分，宫口1cm，先露-2cm，羊水清，当前滴速40滴/分，需要调整吗？\""
+    },
+    {
+        "id": 51,
+        "patient_info": {
+            "name": "何****",
+            "age": "0岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "新生儿科护理记录，无明确诊断记录",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "新生儿需要特别关注喂养和体温情况"
+        ],
+        "key_observations": [
+            "体温是否稳定在正常范围"
+        ],
+        "normal_indicators": [
+            "体温36.5℃属于正常范围"
+        ],
+        "possible_treatments": [
+            "新生儿用药需特别谨慎，可能包括维生素补充等"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测体温，观察喂养情况"
+        ],
+        "lifestyle_changes": [
+            "保持适宜的环境温度，按需喂养"
+        ],
+        "warning_signs": [
+            "体温异常（低于36℃或高于37.5℃）、拒奶、精神差等情况应立即就医"
+        ],
+        "query_intent": "“新生儿体温36.5℃，喂养和体温监测需要注意什么？”"
+    },
+    {
+        "id": 52,
+        "patient_info": {
+            "name": "叶**",
+            "age": "70岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "光反应灵敏，PC端录入的特殊情况记录",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "暂无明确诊断，需进一步观察"
+        ],
+        "key_observations": [
+            "光反应灵敏（瞳孔对光反应正常）"
+        ],
+        "normal_indicators": [
+            "光反应正常"
+        ],
+        "possible_treatments": [
+            "暂无用药建议"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "观察精神状态、瞳孔反应"
+        ],
+        "lifestyle_changes": [
+            "保持规律作息，注意休息"
+        ],
+        "warning_signs": [
+            "出现意识模糊、瞳孔异常、剧烈头痛等症状应立即就医"
+        ],
+        "query_intent": "“70岁男性患者光反应灵敏，瞳孔对光反应正常，需要进一步观察什么？”"
+    },
+    {
+        "id": 53,
+        "patient_info": {
+            "name": "何**",
+            "age": "42岁",
+            "gender": "女"
+        },
+        "disease_info": [
+            "左肩袖损伤",
+            "左肩周炎"
+        ],
+        "department_info": "骨科、康复科",
+        "notes_info": null,
+        "risk_info": [],
+        "secondary_diagnosis_info": [],
+        "main_issues": [
+            "左肩部疼痛和活动受限（肩袖损伤和肩周炎）"
+        ],
+        "key_observations": [
+            "左肩部疼痛程度、活动范围"
+        ],
+        "normal_indicators": [
+            "体温正常（36.6℃），心率（94次/分）和呼吸（20次/分）在正常范围，血压正常（103/79）"
+        ],
+        "possible_treatments": [
+            "止痛药、消炎药、物理治疗"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "左肩部疼痛程度、日常活动能力"
+        ],
+        "lifestyle_changes": [
+            "避免提重物和过度使用左肩，适当进行肩部康复锻炼，注意肩部保暖"
+        ],
+        "warning_signs": [
+            "疼痛突然加重、肩部肿胀发热、无法活动肩关节"
+        ],
+        "query_intent": "\"42岁女性，左肩袖损伤合并肩周炎，左肩部疼痛活动受限，体温36.6℃，心率94次/分，血压103/79，需要怎样的物理治疗和康复锻炼？\""
+    },
+    {
+        "id": 54,
+        "patient_info": {
+            "name": "潘****",
+            "age": "0岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "新生儿护理记录，生命体征稳定",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "新生儿体温维持",
+            "血氧饱和度略低"
+        ],
+        "key_observations": [
+            "体温36.5℃（需维持稳定）",
+            "血氧93%（略低于正常范围）",
+            "心率125次/分钟（新生儿正常偏高）"
+        ],
+        "normal_indicators": [
+            "呼吸频率47次/分钟（新生儿正常范围）",
+            "经口喂养20ml配方奶（喂养量正常）"
+        ],
+        "possible_treatments": [
+            "可能需要保温箱温度调整",
+            "可能需要吸氧支持（根据血氧情况）"
+        ],
+        "important_note": "具体用药请严格遵医嘱，新生儿用药需特别谨慎",
+        "monitoring": [
+            "每小时体温监测",
+            "持续血氧监测",
+            "喂养量和耐受情况"
+        ],
+        "lifestyle_changes": [
+            "保持温箱温度稳定",
+            "少量多次喂养",
+            "注意观察皮肤颜色和活动力"
+        ],
+        "warning_signs": [
+            "体温低于36℃或高于37.5℃",
+            "血氧持续低于90%",
+            "拒奶或呕吐",
+            "呼吸急促或暂停"
+        ],
+        "query_intent": "“新生儿体温36.5℃，血氧93%，心率125次/分，呼吸47次/分，喂养20ml配方奶，需要保温箱温度调整或吸氧支持吗？”"
+    },
+    {
+        "id": 55,
+        "patient_info": {
+            "name": "吴**",
+            "age": "52岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "跌倒风险评估无风险，无明确诊断记录",
+        "risk_info": [
+            "无风险"
+        ],
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者目前无跌倒风险，健康状况较稳定"
+        ],
+        "key_observations": [
+            "医生已评估跌倒风险，结果为无风险"
+        ],
+        "normal_indicators": [
+            "跌倒风险评估得分为0，属于安全范围"
+        ],
+        "possible_treatments": [
+            "目前无需特殊用药治疗"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "日常活动时注意防滑防跌倒"
+        ],
+        "lifestyle_changes": [
+            "保持适度活动，注意地面湿滑情况"
+        ],
+        "warning_signs": [
+            "如出现头晕、站立不稳等情况应及时告知医护人员"
+        ],
+        "query_intent": "\"52岁男性患者跌倒风险评估得分为0，属于安全范围，日常需要注意哪些防跌倒措施？\""
+    },
+    {
+        "id": 56,
+        "patient_info": {
+            "name": "梁**",
+            "age": "42岁",
+            "gender": "男"
+        },
+        "disease_info": [
+            "胫骨干骨折"
+        ],
+        "department_info": "骨科",
+        "notes_info": "深静脉血栓观察护理单，护理措施包括卧床休息、抬高患肢等",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者右腿胫骨干骨折，需要特别注意防止深静脉血栓形成"
+        ],
+        "key_observations": [
+            "小腿肿胀情况",
+            "皮肤颜色和温度",
+            "腘动脉搏动是否正常"
+        ],
+        "normal_indicators": [
+            "皮肤颜色淡红色正常",
+            "皮肤温度正常",
+            "无肿胀",
+            "无主观感觉麻痹",
+            "Homan's征阴性（无血栓迹象）",
+            "腘动脉搏动正常"
+        ],
+        "possible_treatments": [
+            "可能需要预防血栓的药物（如抗凝剂）"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日观察右腿皮肤颜色和温度",
+            "检查小腿是否有肿胀",
+            "注意疼痛感觉变化"
+        ],
+        "lifestyle_changes": [
+            "卧床休息时抬高右腿，保持高于心脏20-30cm",
+            "膝关节保持微屈15度",
+            "腘窝处避免受压",
+            "适当活动踝关节"
+        ],
+        "warning_signs": [
+            "腿部突然出现明显肿胀",
+            "皮肤颜色变紫或发白",
+            "腿部感觉异常麻木或刺痛",
+            "腿部温度明显升高或降低"
+        ],
+        "query_intent": "“42岁男性胫骨干骨折患者，右腿无肿胀、皮肤颜色温度正常，腘动脉搏动正常，需要预防性使用抗凝剂吗？”"
+    },
+    {
+        "id": 57,
+        "patient_info": {
+            "name": "李*",
+            "age": "19岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "遵医嘱予硫酸镁静滴",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者正在接受硫酸镁静脉滴注治疗，需要密切观察药物反应"
+        ],
+        "key_observations": [
+            "尿液排出量（350ml）略低于摄入量（560ml），需关注液体平衡"
+        ],
+        "normal_indicators": [
+            "呼吸频率正常（20次/分钟）"
+        ],
+        "possible_treatments": [
+            "硫酸镁静脉滴注（用于产科相关治疗）"
+        ],
+        "important_note": "具体用药请严格遵医嘱，硫酸镁使用需专业监护",
+        "monitoring": [
+            "记录每日尿液量和饮水量",
+            "观察有无药物不良反应（如面部潮红、头晕等）"
+        ],
+        "lifestyle_changes": [
+            "保持适量水分摄入",
+            "卧床休息时注意定期翻身活动"
+        ],
+        "warning_signs": [
+            "出现严重头痛或视力模糊",
+            "尿量突然减少",
+            "呼吸困难或胸闷"
+        ],
+        "query_intent": "“19岁女性患者正在接受硫酸镁静脉滴注治疗，尿液排出量350ml低于摄入量560ml，需要调整输液量吗？”"
+    },
+    {
+        "id": 58,
+        "patient_info": {
+            "name": "邹**",
+            "age": "41岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "护理记录显示血压138/89 mmHg，尿量300ml",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "血压偏高（接近高血压临界值）"
+        ],
+        "key_observations": [
+            "血压（138/89 mmHg）",
+            "尿量（300ml）"
+        ],
+        "normal_indicators": [
+            "心率正常（79次/分钟）",
+            "血氧正常（98%）"
+        ],
+        "possible_treatments": [
+            "可能需要降压药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日测量血压",
+            "观察尿量变化"
+        ],
+        "lifestyle_changes": [
+            "减少盐分摄入",
+            "保持适量运动",
+            "多喝水"
+        ],
+        "warning_signs": [
+            "血压持续高于140/90 mmHg",
+            "尿量明显减少",
+            "头晕、头痛加重"
+        ],
+        "query_intent": "\"41岁女性血压138/89 mmHg接近高血压临界值，尿量300ml，需要服用降压药吗？\""
+    },
+    {
+        "id": 59,
+        "patient_info": {
+            "name": "史**",
+            "age": "27岁",
+            "gender": "女"
+        },
+        "disease_info": [
+            "妊娠合并子宫瘢痕",
+            "糖尿病合并妊娠",
+            "双相情感障碍",
+            "妊娠合并肥胖症",
+            "孕3产1孕38+1周宫内单活胎LOA待产"
+        ],
+        "department_info": "产科、内分泌科\n精神心理科\n产科、内分泌科\n产科",
+        "notes_info": "营养风险不存在，疾病的严重程度评分为轻度",
+        "risk_info": [
+            "肥胖症"
+        ],
+        "secondary_diagnosis_info": [
+            "髋关节骨折",
+            "慢性疾病合并急性并发症（如肝硬化）",
+            "慢性阻塞性肺病",
+            "血液透析",
+            "一般肿瘤"
+        ],
+        "main_issues": [
+            "妊娠合并子宫瘢痕（之前剖腹产留下的疤痕）",
+            "怀孕期间有糖尿病",
+            "有双相情感障碍（情绪波动较大的心理问题）",
+            "怀孕期间体重过重",
+            "目前怀孕38周多，即将生产"
+        ],
+        "key_observations": [
+            "子宫瘢痕情况（之前剖腹产的影响）",
+            "血糖水平（妊娠糖尿病控制）",
+            "情绪状态（双相情感障碍）",
+            "体重变化"
+        ],
+        "normal_indicators": [
+            "营养状况正常（不存在营养风险）",
+            "胎儿发育正常（宫内单活胎）"
+        ],
+        "possible_treatments": [
+            "妊娠糖尿病可能需要胰岛素控制",
+            "双相情感障碍可能需要情绪稳定药物",
+            "产前维生素补充"
+        ],
+        "important_note": "具体用药请严格遵医嘱，特别是怀孕期间所有药物都必须由医生指导使用",
+        "monitoring": [
+            "每日血糖监测",
+            "胎动情况",
+            "体重变化",
+            "情绪波动"
+        ],
+        "lifestyle_changes": [
+            "控制饮食，避免高糖食物",
+            "适当运动（如医生允许的孕妇运动）",
+            "保持规律作息",
+            "心理疏导或咨询"
+        ],
+        "warning_signs": [
+            "宫缩疼痛加剧",
+            "阴道出血",
+            "胎动明显减少",
+            "血糖过高或过低",
+            "情绪极度不稳定"
+        ],
+        "query_intent": "\"27岁孕妇，妊娠合并子宫瘢痕、糖尿病合并妊娠、双相情感障碍、妊娠合并肥胖症，孕38+1周，血糖控制、情绪稳定和体重管理需要注意什么？\""
+    },
+    {
+        "id": 60,
+        "patient_info": {
+            "name": "张**",
+            "age": "41岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "深静脉导管植入术后维护状态，指征渗漏，护理措施物理治疗",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "深静脉导管植入术后维护"
+        ],
+        "key_observations": [
+            "导管渗漏情况",
+            "导管是否需要拔除"
+        ],
+        "normal_indicators": [
+            "导管目前保留，未拔除"
+        ],
+        "possible_treatments": [
+            "肝素盐水封管术"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "导管渗漏情况",
+            "导管周围皮肤状况"
+        ],
+        "lifestyle_changes": [
+            "避免剧烈运动以防导管移位",
+            "保持导管周围清洁干燥"
+        ],
+        "warning_signs": [
+            "导管周围红肿、疼痛加剧",
+            "发热或寒战",
+            "导管明显移位或脱落"
+        ],
+        "query_intent": "“深静脉导管植入术后出现渗漏，目前导管未拔除，需要进行肝素盐水封管术吗？”"
+    },
+    {
+        "id": 61,
+        "patient_info": {
+            "name": "尹**",
+            "age": "47岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "深静脉导管植入术后维护",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者需要注意深静脉导管植入术后的维护和护理"
+        ],
+        "key_observations": [
+            "医生重点关注导管的使用情况和维护状态"
+        ],
+        "normal_indicators": [
+            "导管植入后无明显异常，需定期维护"
+        ],
+        "possible_treatments": [
+            "可能需要定期进行导管冲洗和维护"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "需要定期检查导管是否通畅，有无感染迹象"
+        ],
+        "lifestyle_changes": [
+            "保持导管部位清洁干燥，避免剧烈运动或压迫导管部位"
+        ],
+        "warning_signs": [
+            "如出现导管部位红肿、疼痛、发热或导管不通畅，应立即就医"
+        ],
+        "query_intent": "\"47岁女性患者深静脉导管植入术后，如何进行导管维护和护理？需要注意哪些感染迹象？\""
+    },
+    {
+        "id": 62,
+        "patient_info": {
+            "name": "吴**",
+            "age": "57岁",
+            "gender": "男"
+        },
+        "disease_info": [
+            "肾输尿管结石伴有积水和感染"
+        ],
+        "department_info": "泌尿外科、肾内科",
+        "notes_info": "尿频，轻度跌倒风险",
+        "risk_info": [],
+        "secondary_diagnosis_info": [],
+        "main_issues": [
+            "肾输尿管结石伴有积水和感染",
+            "尿频"
+        ],
+        "key_observations": [
+            "尿频",
+            "轻度跌倒风险"
+        ],
+        "normal_indicators": [
+            "体温正常（36.3℃）",
+            "血压正常（136/82 mmHg）",
+            "BMI正常（21.30）",
+            "皮肤完好",
+            "饮食良好",
+            "睡眠正常"
+        ],
+        "possible_treatments": [
+            "可能需要抗生素治疗感染",
+            "可能需要止痛药缓解结石疼痛"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测体温",
+            "注意排尿情况",
+            "观察是否有腰痛或发热"
+        ],
+        "lifestyle_changes": [
+            "多喝水，每天至少2升",
+            "避免剧烈运动以防结石移动",
+            "注意防跌倒，尤其夜间起床时"
+        ],
+        "warning_signs": [
+            "出现高热（超过38℃）",
+            "剧烈腰痛无法缓解",
+            "排尿困难或血尿"
+        ],
+        "query_intent": "\"57岁男性，肾输尿管结石伴有积水和感染，尿频，体温36.3℃，血压136/82，需要抗生素和止痛药吗？\""
+    },
+    {
+        "id": 63,
+        "patient_info": {
+            "name": "叶**",
+            "age": "1岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "结膜充血，体温38℃，精神状态一般",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "1岁患儿发烧38℃",
+            "结膜充血（眼睛发红）"
+        ],
+        "key_observations": [
+            "体温38℃（低烧）",
+            "眼睛充血情况",
+            "精神状态一般"
+        ],
+        "normal_indicators": [
+            "留置针部位正常（输液通畅无感染）"
+        ],
+        "possible_treatments": [
+            "退烧药（如布洛芬混悬液）",
+            "眼部护理（如需）"
+        ],
+        "important_note": "具体用药请严格遵医嘱，1岁幼儿用药需特别谨慎",
+        "monitoring": [
+            "每4小时测体温",
+            "观察眼睛充血是否加重",
+            "注意精神状态变化"
+        ],
+        "lifestyle_changes": [
+            "多喂温水防止脱水",
+            "保持眼部清洁（用干净湿毛巾擦拭）",
+            "保证充足休息"
+        ],
+        "warning_signs": [
+            "体温超过38.5℃",
+            "眼睛出现分泌物或肿胀",
+            "精神变差/拒食",
+            "出现皮疹或抽搐"
+        ],
+        "query_intent": "\"1岁男婴发烧38℃，结膜充血，精神状态一般，需要用什么退烧药？眼部充血该如何护理？\""
+    },
+    {
+        "id": 64,
+        "patient_info": {
+            "name": "赵****",
+            "age": "新生儿",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "遵医嘱予青霉素14万单位肌注",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "新生儿需要特别注意感染预防和皮肤护理"
+        ],
+        "key_observations": [
+            "医生重点关注新生儿的皮肤颜色和可能的感染迹象"
+        ],
+        "normal_indicators": [
+            "皮肤颜色红润，显示血液循环良好"
+        ],
+        "possible_treatments": [
+            "青霉素注射用于预防或治疗可能的细菌感染"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日观察皮肤颜色变化",
+            "注意体温变化"
+        ],
+        "lifestyle_changes": [
+            "保持新生儿皮肤清洁干燥",
+            "按需喂养"
+        ],
+        "warning_signs": [
+            "皮肤颜色变苍白或发青",
+            "体温异常升高或降低",
+            "喂养困难"
+        ],
+        "query_intent": "\"新生儿皮肤颜色红润，遵医嘱使用青霉素14万单位肌注预防感染，需要注意哪些护理事项？\""
+    },
+    {
+        "id": 65,
+        "patient_info": {
+            "name": "黄**",
+            "age": "31岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "产后状态，阴道出血100ml，子宫收缩良好",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "产后阴道出血（量较多）"
+        ],
+        "key_observations": [
+            "心跳偏快（102次/分钟）",
+            "血压偏低（105/57 mmHg）",
+            "阴道出血量（100ml）"
+        ],
+        "normal_indicators": [
+            "体温正常（36.6℃）",
+            "血氧正常（99%）",
+            "神志清醒",
+            "子宫收缩良好",
+            "会阴部正常"
+        ],
+        "possible_treatments": [
+            "可能需要止血药物",
+            "可能需要补液治疗（因血压偏低）"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测阴道出血量",
+            "定时测量血压和心率",
+            "观察会阴部情况"
+        ],
+        "lifestyle_changes": [
+            "保持会阴部清洁",
+            "适当卧床休息",
+            "补充营养，特别是含铁食物"
+        ],
+        "warning_signs": [
+            "出血量突然增加",
+            "出现头晕、乏力等不适症状",
+            "血压持续下降",
+            "发热"
+        ],
+        "query_intent": "\"产后阴道出血100ml，心率102次/分，血压105/57 mmHg，需要止血药物和补液治疗吗？\""
+    },
+    {
+        "id": 66,
+        "patient_info": {
+            "name": "李**",
+            "age": "64岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "无明确诊断信息",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "目前没有特别紧急的健康问题，但需要关注尿液排出量"
+        ],
+        "key_observations": [
+            "尿液排出量（200ml）"
+        ],
+        "normal_indicators": [
+            "心率正常（61次/分钟），血氧正常（96%）"
+        ],
+        "possible_treatments": [
+            "目前没有明确的用药建议"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日记录尿液排出量"
+        ],
+        "lifestyle_changes": [
+            "保持充足的水分摄入，注意饮食均衡"
+        ],
+        "warning_signs": [
+            "尿液排出量明显减少或无尿，出现头晕、乏力等症状"
+        ],
+        "query_intent": "\"64岁女性患者，尿液排出量200ml，心率61次/分，血氧96%，需要特别关注吗？\""
+    },
+    {
+        "id": 67,
+        "patient_info": {
+            "name": "汤**",
+            "age": "57岁",
+            "gender": null
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "大便偶有失禁（每周＜1次），小便失禁或昏迷或需由他人导尿",
+        "risk_info": [
+            "重度依赖"
+        ],
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者生活自理能力严重不足，需要全天候护理"
+        ],
+        "key_observations": [
+            "大小便失禁情况严重，需他人协助处理"
+        ],
+        "normal_indicators": [
+            "评估显示患者意识状态稳定（非昏迷）"
+        ],
+        "possible_treatments": [
+            "可能需要导尿辅助设备",
+            "肠道功能调节药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日记录大小便情况",
+            "观察皮肤清洁状况（预防褥疮）"
+        ],
+        "lifestyle_changes": [
+            "定时协助如厕训练",
+            "保持床铺清洁干燥",
+            "增加高纤维饮食预防便秘"
+        ],
+        "warning_signs": [
+            "出现发热或皮肤红肿",
+            "超过24小时未排尿",
+            "大便异常出血"
+        ],
+        "query_intent": "\"57岁患者大小便失禁，每周大便失禁少于1次，需要导尿辅助设备吗？\""
+    },
+    {
+        "id": 68,
+        "patient_info": {
+            "name": "谢*",
+            "age": "74岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "深静脉导管植入术后维护状态，植入式输液港（PORT）",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "植入式输液港（PORT）的术后维护"
+        ],
+        "key_observations": [
+            "穿刺点情况",
+            "肢体血栓形成情况"
+        ],
+        "normal_indicators": [
+            "穿刺点正常",
+            "无肢体血栓形成"
+        ],
+        "possible_treatments": [
+            "可能需要定期输液港维护药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日观察穿刺点是否有红肿、渗液",
+            "注意肢体是否有肿胀、疼痛"
+        ],
+        "lifestyle_changes": [
+            "保持穿刺部位清洁干燥",
+            "避免剧烈运动或碰撞输液港部位"
+        ],
+        "warning_signs": [
+            "穿刺点出现红肿、渗液",
+            "肢体肿胀、疼痛或发热"
+        ],
+        "query_intent": "“74岁女性，植入式输液港（PORT）术后维护，穿刺点正常，无肢体血栓形成，需要定期输液港维护药物吗？”"
+    },
+    {
+        "id": 69,
+        "patient_info": {
+            "name": "王**",
+            "age": "66岁",
+            "gender": "女"
+        },
+        "disease_info": [
+            "腹膜透析置管术"
+        ],
+        "department_info": "肾内科、普外科",
+        "notes_info": "术前准备已完成，无既往病史，无药物过敏",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "即将进行腹膜透析置管术"
+        ],
+        "key_observations": [
+            "体温正常（36.7℃）",
+            "血压正常（127/72mmHg）",
+            "心率正常（77次/分）",
+            "呼吸正常（20次/分）"
+        ],
+        "normal_indicators": [
+            "血氧正常（未提及异常）",
+            "皮肤无损伤",
+            "营养状况良好"
+        ],
+        "possible_treatments": [
+            "术前使用抗生素（头孢呋辛钠）预防感染"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "术后需监测体温",
+            "观察手术部位有无红肿、疼痛",
+            "注意排尿情况"
+        ],
+        "lifestyle_changes": [
+            "保持手术部位清洁干燥",
+            "适当活动预防血栓",
+            "高蛋白饮食促进伤口愈合"
+        ],
+        "warning_signs": [
+            "发热超过38℃",
+            "手术部位渗血、流脓",
+            "剧烈腹痛",
+            "排尿困难"
+        ],
+        "query_intent": "\"66岁女性患者即将进行腹膜透析置管术，术前体温36.7℃，血压127/72mmHg，心率77次/分，呼吸20次/分，使用头孢呋辛钠预防感染，术后需要注意哪些事项？\""
+    },
+    {
+        "id": 70,
+        "patient_info": {
+            "name": "何**",
+            "age": "37岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "双侧臀部酸痛（评分3），双下肢麻痹；遵医嘱予停心电监护，患者下床活动，自理能力评分85分（轻度依赖），压疮评分22分（无风险），跌倒评分18分（轻度风险），行防跌倒相关告知",
+        "risk_info": [
+            "跌倒轻度风险"
+        ],
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "双侧臀部酸痛",
+            "双下肢麻痹"
+        ],
+        "key_observations": [
+            "臀部酸痛评分：3分（轻度疼痛）",
+            "下肢麻痹情况",
+            "跌倒风险：轻度"
+        ],
+        "normal_indicators": [
+            "心率：78次/分（正常）",
+            "呼吸：20次/分（正常）",
+            "血压：104/62（正常偏低）",
+            "血氧：99%（正常）"
+        ],
+        "possible_treatments": [
+            "遵医嘱进行疼痛管理",
+            "可能需要止痛药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测臀部疼痛程度",
+            "注意下肢麻痹变化情况"
+        ],
+        "lifestyle_changes": [
+            "活动时注意防跌倒",
+            "保持适度活动",
+            "注意臀部保暖"
+        ],
+        "warning_signs": [
+            "疼痛突然加重",
+            "下肢麻痹范围扩大",
+            "出现行走困难"
+        ],
+        "query_intent": "\"37岁女性患者双侧臀部酸痛（评分3分），双下肢麻痹，跌倒轻度风险，血压104/62偏低，需要止痛药物吗？\""
+    },
+    {
+        "id": 71,
+        "patient_info": {
+            "name": "李**",
+            "age": "71岁",
+            "gender": "女"
+        },
+        "disease_info": [
+            "股骨颈骨折"
+        ],
+        "department_info": "骨科、创伤外科",
+        "notes_info": "深静脉血栓观察护理单显示正常足背动脉搏动、皮肤颜色淡红色、Homan’s征阴性、无肿胀、皮肤温度正常、无主观感觉麻痹，小腿周径27.7cm",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者左腿有深静脉血栓风险，需要特别注意护理"
+        ],
+        "key_observations": [
+            "足背动脉搏动正常",
+            "皮肤颜色淡红",
+            "无肿胀",
+            "皮肤温度正常"
+        ],
+        "normal_indicators": [
+            "疼痛评分为0",
+            "无主观感觉麻痹",
+            "Homan’s征阴性"
+        ],
+        "possible_treatments": [
+            "可能需要抗凝血药物预防血栓"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日观察左腿皮肤颜色、温度",
+            "检查是否有肿胀或疼痛"
+        ],
+        "lifestyle_changes": [
+            "卧床休息时抬高患肢，高于心脏20~30cm",
+            "膝关节微屈15°，避免腘窝受压",
+            "适当活动踝关节"
+        ],
+        "warning_signs": [
+            "左腿突然肿胀、疼痛加剧",
+            "皮肤颜色变深或发紫",
+            "感觉麻痹或发热"
+        ],
+        "query_intent": "“71岁女性股骨颈骨折患者，左腿深静脉血栓风险，足背动脉搏动正常、皮肤颜色淡红、无肿胀、皮肤温度正常、Homan’s征阴性、疼痛评分0分，需要抗凝血药物预防血栓吗？”"
+    },
+    {
+        "id": 72,
+        "patient_info": {
+            "name": "梁**",
+            "age": "48岁",
+            "gender": "男"
+        },
+        "disease_info": [
+            "急性髓系白血病（M5，中危，CEBPA双突变、CSF3R突变、TET2突变阳性）",
+            "化疗后骨髓抑制",
+            "肝功能异常查因",
+            "发热查因"
+        ],
+        "department_info": "血液内科、肿瘤科\n血液内科\n消化内科\n感染科、内科",
+        "notes_info": "当前发热38.8℃，遵医嘱用药",
+        "risk_info": [
+            "化疗药"
+        ],
+        "secondary_diagnosis_info": [
+            "慢性乙型病毒性肝炎",
+            "药物性肝损害（化疗药）",
+            "前列腺增大",
+            "肝囊肿"
+        ],
+        "main_issues": [
+            "患者当前有发烧症状，体温达到38.8℃",
+            "患有急性髓系白血病，正在接受化疗",
+            "肝功能异常，可能由乙肝或化疗药物引起"
+        ],
+        "key_observations": [
+            "医生重点关注发烧情况",
+            "监测肝功能指标",
+            "观察化疗后的骨髓抑制情况"
+        ],
+        "normal_indicators": [
+            "未提供其他指标数据"
+        ],
+        "possible_treatments": [
+            "使用贝敏伪麻片退烧"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测体温",
+            "注意观察是否有新的发热",
+            "留意肝功能相关症状（如皮肤发黄、食欲不振）"
+        ],
+        "lifestyle_changes": [
+            "保持充足休息",
+            "多饮水",
+            "清淡易消化饮食",
+            "注意个人卫生，预防感染"
+        ],
+        "warning_signs": [
+            "体温持续升高或反复发热",
+            "出现严重乏力、皮肤黄染",
+            "出血倾向（如牙龈出血、皮下瘀斑）",
+            "呼吸困难或胸痛"
+        ],
+        "query_intent": "\"48岁男性急性髓系白血病患者（M5，中危，CEBPA双突变、CSF3R突变、TET2突变阳性），化疗后出现骨髓抑制，伴有38.8℃发热，肝功能异常（慢性乙肝及药物性肝损害可能），使用贝敏伪麻片退烧，需要调整治疗方案吗？\""
+    },
+    {
+        "id": 73,
+        "patient_info": {
+            "name": "王****",
+            "age": "0岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "新生儿护理记录，未见出血点及淤紫瘀斑",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "新生儿心率较快",
+            "呼吸频率较高"
+        ],
+        "key_observations": [
+            "心率145次/分钟（新生儿正常为120-160）",
+            "呼吸46次/分钟（新生儿正常为40-60）"
+        ],
+        "normal_indicators": [
+            "体温36.7℃（正常）",
+            "血氧94%（正常）",
+            "未见出血点及淤紫瘀斑"
+        ],
+        "possible_treatments": [
+            "可能需要观察或调节喂养方式"
+        ],
+        "important_note": "具体用药请严格遵医嘱，新生儿用药需特别谨慎",
+        "monitoring": [
+            "每2-3小时监测心率",
+            "每2-3小时监测呼吸频率",
+            "每次喂养后观察反应"
+        ],
+        "lifestyle_changes": [
+            "保持少量多次喂养（目前20ml/次）",
+            "注意保持适宜环境温度（箱温31.5℃）"
+        ],
+        "warning_signs": [
+            "心率持续超过160次/分钟",
+            "呼吸频率超过60次/分钟",
+            "血氧低于90%",
+            "出现拒奶或呕吐"
+        ],
+        "query_intent": "\"新生儿心率145次/分，呼吸46次/分，血氧94%，未见出血点及淤紫瘀斑，需要调节喂养方式吗？\""
+    },
+    {
+        "id": 74,
+        "patient_info": {
+            "name": "陈**",
+            "age": "62岁",
+            "gender": null
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "生活自理能力评估总分10分，使用尿套或纸尿裤",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者需要辅助管理排尿功能"
+        ],
+        "key_observations": [
+            "生活自理能力评估（穿衣、系扣等）",
+            "排尿管理需求"
+        ],
+        "normal_indicators": [
+            "穿衣等基本生活活动能力正常（总分10分）"
+        ],
+        "possible_treatments": [
+            "可能需要排尿辅助器具（如尿套）"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "排尿情况",
+            "皮肤状况（防止尿布疹）"
+        ],
+        "lifestyle_changes": [
+            "保持会阴部清洁干燥",
+            "定时更换尿套/纸尿裤"
+        ],
+        "warning_signs": [
+            "出现皮肤红肿或破损",
+            "排尿疼痛或困难"
+        ],
+        "query_intent": "\"62岁患者生活自理能力评估10分，需要使用尿套管理排尿功能，需要注意哪些护理事项？\""
+    },
+    {
+        "id": 75,
+        "patient_info": {
+            "name": "刁**",
+            "age": "51岁",
+            "gender": "女"
+        },
+        "disease_info": [
+            "脊椎源性痛综合征"
+        ],
+        "department_info": "骨科、疼痛科",
+        "notes_info": "主诉颈胸背部及头枕部疼痛2年，加重1月，疼痛评分5分",
+        "risk_info": [],
+        "secondary_diagnosis_info": [],
+        "main_issues": [
+            "患者主要问题是颈胸背部和头枕部长期疼痛，最近一个月疼痛加重"
+        ],
+        "key_observations": [
+            "疼痛评分为5分（中等程度疼痛）",
+            "BMI 27.73（超重）"
+        ],
+        "normal_indicators": [
+            "体温36.2℃（正常）",
+            "脉搏84次/分（正常）",
+            "血压108/75（正常）",
+            "呼吸20次/分（正常）",
+            "其他各项生理指标均正常"
+        ],
+        "possible_treatments": [
+            "可能需要止痛药物治疗",
+            "可能需要物理治疗缓解疼痛"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日记录疼痛程度变化",
+            "注意观察疼痛部位是否有加重"
+        ],
+        "lifestyle_changes": [
+            "控制体重（目前BMI显示超重）",
+            "保持适当颈部运动",
+            "注意坐姿和睡姿"
+        ],
+        "warning_signs": [
+            "疼痛突然加剧",
+            "出现手脚麻木或无力",
+            "头晕或视力模糊"
+        ],
+        "query_intent": "\"51岁女性，颈胸背部及头枕部疼痛2年加重1月，疼痛评分5分，BMI 27.73，需要止痛药或物理治疗吗？\""
+    },
+    {
+        "id": 76,
+        "patient_info": {
+            "name": "李**",
+            "age": "82岁",
+            "gender": null
+        },
+        "disease_info": [
+            "脑挫伤"
+        ],
+        "department_info": "神经外科、神经内科",
+        "notes_info": "格拉摩根评估量表得分31分，提示高风险状态",
+        "risk_info": [
+            "轻微移动但低于该年龄段应有的移动能力",
+            "设备/物体/坚硬的表面/压迫或与皮肤摩擦",
+            "持续性发热(超过四小时体温>38℃(100°F)",
+            "不良的外周循环灌注情况(肢端冰冷/毛细血管再充盈时间>2秒/皮肤发冷有瘀斑)",
+            "营养不良(无法经口进食/无法吸收/肠内喂饲和不经静脉输注营养液补充营养)",
+            "低血浆白蛋白(<3.5g/dl)",
+            "体重低于10%分位数",
+            "失禁(与年龄不相符的)"
+        ],
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "82岁老人因脑挫伤导致行动能力明显低于同龄人",
+            "持续高烧超过38℃",
+            "手脚冰冷、血液循环差",
+            "严重营养不良（无法正常进食）",
+            "体重过轻（低于同龄人90%的标准）"
+        ],
+        "key_observations": [
+            "持续高烧需要重点关注",
+            "手脚冰冷提示血液循环问题",
+            "营养指标异常（白蛋白低、无法自主进食）",
+            "大小便失禁情况"
+        ],
+        "normal_indicators": [
+            "未提及呼吸异常",
+            "未提及血氧异常"
+        ],
+        "possible_treatments": [
+            "退烧药物控制体温",
+            "改善循环药物",
+            "营养补充治疗（可能需要静脉输液）",
+            "脑挫伤相关治疗药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱，老年患者用药需特别注意剂量调整",
+        "monitoring": [
+            "每4小时测量体温",
+            "观察手脚温度变化",
+            "记录进食量和大小便情况",
+            "每日称体重"
+        ],
+        "lifestyle_changes": [
+            "保持皮肤清洁干燥防止压疮",
+            "少量多餐的高营养饮食",
+            "定期轻柔活动肢体改善循环",
+            "保持环境温暖舒适"
+        ],
+        "warning_signs": [
+            "体温持续超过38.5℃",
+            "手脚出现明显青紫",
+            "完全无法进食",
+            "意识状态恶化"
+        ],
+        "query_intent": "“82岁老人脑挫伤后持续高烧超过38℃，手脚冰冷、血液循环差，严重营养不良无法自主进食，体重低于同龄人90%标准，需要哪些治疗和护理措施？”"
+    },
+    {
+        "id": 77,
+        "patient_info": {
+            "name": "林*",
+            "age": "24岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "高热（40.0℃），心动过速（130次/分），已汇报医生并予用药",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者当前有高烧（40.0℃）和心跳过快（130次/分）的情况"
+        ],
+        "key_observations": [
+            "医生重点关注高烧和心跳过快的指标"
+        ],
+        "normal_indicators": [],
+        "possible_treatments": [
+            "可能需要退烧药和调节心率的药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "需要每日监测体温和心率"
+        ],
+        "lifestyle_changes": [
+            "多喝水，保持休息，避免剧烈运动"
+        ],
+        "warning_signs": [
+            "如果体温持续不降或心跳继续加快，应立即就医"
+        ],
+        "query_intent": "\"24岁男性患者高烧40.0℃，心率130次/分，需要使用退烧药和调节心率的药物吗？\""
+    },
+    {
+        "id": 78,
+        "patient_info": {
+            "name": "黄****",
+            "age": "0岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "新生儿科护理记录，臀部护理，解少许黄绿便",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "新生儿心率偏快",
+            "臀部需要特殊护理",
+            "大便颜色异常（黄绿色）"
+        ],
+        "key_observations": [
+            "心率141次/分钟（新生儿正常心率120-160次/分钟）",
+            "血氧饱和度94%",
+            "臀部护理情况",
+            "大便颜色和量"
+        ],
+        "normal_indicators": [
+            "血氧饱和度94%属于正常范围（新生儿正常值90-100%）"
+        ],
+        "possible_treatments": [
+            "臀部护理使用氧化锌药膏"
+        ],
+        "important_note": "具体用药请严格遵医嘱，新生儿用药需特别谨慎",
+        "monitoring": [
+            "每日监测心率",
+            "观察大便颜色和次数",
+            "检查臀部皮肤状况"
+        ],
+        "lifestyle_changes": [
+            "保持臀部清洁干燥",
+            "注意喂养量和频率"
+        ],
+        "warning_signs": [
+            "心率持续超过160次/分钟或低于100次/分钟",
+            "血氧饱和度低于90%",
+            "大便带血或呈白色",
+            "臀部出现严重红肿或溃烂"
+        ],
+        "query_intent": "“新生儿心率141次/分，血氧94%，解黄绿便，臀部需要特殊护理，使用氧化锌药膏合适吗？”"
+    },
+    {
+        "id": 79,
+        "patient_info": {
+            "name": "王**",
+            "age": "49岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "留置尿管，Braden风险评估无风险",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者目前皮肤护理需特别注意，因留置尿管可能增加感染风险"
+        ],
+        "key_observations": [
+            "医生重点关注皮肤状况，尤其是留置尿管周围的皮肤健康"
+        ],
+        "normal_indicators": [
+            "患者营养状况良好，活动能力轻度受限但可偶尔步行"
+        ],
+        "possible_treatments": [
+            "可能需要使用皮肤保护剂或抗菌药膏预防感染"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日检查留置尿管周围的皮肤是否有红肿、疼痛或异常分泌物"
+        ],
+        "lifestyle_changes": [
+            "保持尿管周围清洁干燥，避免摩擦和剪切力",
+            "适当增加水分摄入，保持尿液通畅"
+        ],
+        "warning_signs": [
+            "如出现发热、尿管周围皮肤红肿疼痛或尿液浑浊，应立即就医"
+        ],
+        "query_intent": "\"49岁女性患者留置尿管，Braden风险评估无风险，但需要重点关注尿管周围皮肤状况，目前营养良好、活动能力轻度受限，是否需要使用皮肤保护剂或抗菌药膏预防感染？\""
+    },
+    {
+        "id": 80,
+        "patient_info": {
+            "name": "陈**",
+            "age": "62岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "简易智能精神状态检查量表(MMSE)评估总分2分，提示可能存在认知功能障碍",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "记忆力减退",
+            "回忆能力下降"
+        ],
+        "key_observations": [
+            "简易智能精神状态检查量表（MMSE）得分较低（2分）"
+        ],
+        "normal_indicators": [
+            "未提供其他生理指标数据"
+        ],
+        "possible_treatments": [
+            "可能需要改善记忆力的药物",
+            "可能需要神经保护类药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日观察记忆力和认知功能变化"
+        ],
+        "lifestyle_changes": [
+            "保持规律作息",
+            "适当进行脑力活动如阅读、下棋",
+            "保持社交活动"
+        ],
+        "warning_signs": [
+            "记忆力突然显著下降",
+            "出现定向障碍（如不认识家人或找不到家）",
+            "行为异常"
+        ],
+        "query_intent": "\"62岁男性，MMSE评分2分，记忆力减退明显，需要服用改善记忆力的药物吗？\""
+    },
+    {
+        "id": 81,
+        "patient_info": {
+            "name": "黄****",
+            "age": "0岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "新生儿护理记录，喂养方式为经口水解奶，吸吮力好，基础护理包括臀部护理",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "新生儿心率较快（154次/分钟）"
+        ],
+        "key_observations": [
+            "心率偏高",
+            "喂养情况（吸吮力好）"
+        ],
+        "normal_indicators": [
+            "血氧正常（95%）",
+            "喂养方式正常（经口喂养水解奶）"
+        ],
+        "possible_treatments": [
+            "可能需要监测心率并调整喂养计划"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测心率",
+            "观察喂养量和吸吮力"
+        ],
+        "lifestyle_changes": [
+            "保持适量喂养（每次30ml水解奶）",
+            "注意臀部护理（使用氧化锌）"
+        ],
+        "warning_signs": [
+            "心率持续偏高",
+            "喂养困难或吸吮力下降",
+            "血氧下降"
+        ],
+        "query_intent": "\"新生儿心率154次/分，血氧95%，经口喂养水解奶吸吮力好，需要调整喂养计划吗？\""
+    },
+    {
+        "id": 82,
+        "patient_info": {
+            "name": "李**",
+            "age": "28岁",
+            "gender": "女"
+        },
+        "disease_info": [
+            "先兆临产"
+        ],
+        "department_info": "产科",
+        "notes_info": "产后护理记录，宫底高度U=0，子宫收缩良好",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "产后恢复期，需关注子宫收缩情况"
+        ],
+        "key_observations": [
+            "医生重点关注的指标：子宫收缩情况、宫底高度"
+        ],
+        "normal_indicators": [
+            "会阴正常，宫底高度正常（U=0），子宫收缩良好"
+        ],
+        "possible_treatments": [
+            "可能需要促进子宫收缩的药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日观察恶露情况、子宫收缩情况"
+        ],
+        "lifestyle_changes": [
+            "保持会阴清洁，适当活动促进恢复，注意休息"
+        ],
+        "warning_signs": [
+            "出现大量出血、发热、剧烈腹痛应立即就医"
+        ],
+        "query_intent": "“产后恢复期，子宫收缩良好，宫底高度U=0，需要促进子宫收缩的药物吗？”"
+    },
+    {
+        "id": 83,
+        "patient_info": {
+            "name": "李**",
+            "age": "49岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "疼痛评分2分",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者当前疼痛感较轻，疼痛评分为2分（满分10分）"
+        ],
+        "key_observations": [
+            "护士重点关注患者的疼痛程度变化"
+        ],
+        "normal_indicators": [
+            "当前疼痛评分显示患者处于轻度不适状态"
+        ],
+        "possible_treatments": [
+            "可能不需要特殊止痛药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日记录疼痛评分变化"
+        ],
+        "lifestyle_changes": [
+            "保持舒适体位，避免加重疼痛的动作"
+        ],
+        "warning_signs": [
+            "如疼痛突然加重或持续超过3天应及时就医"
+        ],
+        "query_intent": "\"49岁男性患者，疼痛评分2分，需要特殊止痛药物吗？\""
+    },
+    {
+        "id": 84,
+        "patient_info": {
+            "name": "王**",
+            "age": "44岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "患者在病房安静休息",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者目前无明显紧急健康问题，需注意休息"
+        ],
+        "key_observations": [
+            "血压（129/72 mmHg）和心率（82次/分钟）均在正常范围内"
+        ],
+        "normal_indicators": [
+            "血压正常，心率正常，患者在安静休息状态"
+        ],
+        "possible_treatments": [
+            "目前无明确用药建议"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测血压和心率"
+        ],
+        "lifestyle_changes": [
+            "保持充足休息，避免过度劳累"
+        ],
+        "warning_signs": [
+            "如出现头晕、胸闷、心悸等症状应立即就医"
+        ],
+        "query_intent": "\"44岁男性患者血压129/72 mmHg，心率82次/分，目前无明显紧急健康问题，需要注意什么？\""
+    },
+    {
+        "id": 85,
+        "patient_info": {
+            "name": "叶****",
+            "age": "0岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "新生儿护理中，肤色轻黄，基础护理包括眼部、口腔和脐部护理",
+        "risk_info": null,
+        "secondary_diagnosis_info": [
+            "黄疸"
+        ],
+        "main_issues": [
+            "新生儿轻度黄疸"
+        ],
+        "key_observations": [
+            "黄疸程度（轻度）",
+            "心率（157次/分钟）",
+            "血氧饱和度（94%）"
+        ],
+        "normal_indicators": [
+            "反应正常",
+            "哭声响亮",
+            "肤色除黄疸外正常",
+            "肛周皮肤正常",
+            "外周静脉输液通畅"
+        ],
+        "possible_treatments": [
+            "可能需要光疗治疗黄疸",
+            "继续当前输液治疗"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测黄疸程度",
+            "观察心率变化",
+            "检查血氧饱和度"
+        ],
+        "lifestyle_changes": [
+            "保持眼部、口腔和脐部清洁护理",
+            "确保充足喂养"
+        ],
+        "warning_signs": [
+            "黄疸加重",
+            "反应变差",
+            "哭声减弱",
+            "血氧下降",
+            "心率异常波动"
+        ],
+        "query_intent": "“新生儿轻度黄疸，心率157次/分，血氧94%，需要光疗吗？如何进行眼部、口腔和脐部护理？”"
+    },
+    {
+        "id": 86,
+        "patient_info": {
+            "name": "廖**",
+            "age": "76岁",
+            "gender": "女"
+        },
+        "disease_info": [
+            "左眼球化学性灼伤"
+        ],
+        "department_info": "眼科、急诊科",
+        "notes_info": "患者多饮水，体温39℃，血氧饱和度93%",
+        "risk_info": [],
+        "secondary_diagnosis_info": [],
+        "main_issues": [
+            "患者目前有高烧（39℃）",
+            "左眼球化学性灼伤需要特别注意"
+        ],
+        "key_observations": [
+            "体温高达39℃，需要及时降温",
+            "血氧饱和度93%，略低于正常水平"
+        ],
+        "normal_indicators": [
+            "血氧饱和度93%，虽然略低但仍在可接受范围内"
+        ],
+        "possible_treatments": [
+            "可能需要退烧药物",
+            "眼部灼伤可能需要特殊眼药水或治疗"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日多次测量体温",
+            "观察眼部灼伤恢复情况",
+            "监测血氧饱和度"
+        ],
+        "lifestyle_changes": [
+            "多饮水（医生已建议）",
+            "保持眼部清洁",
+            "注意休息"
+        ],
+        "warning_signs": [
+            "体温持续不降或升高",
+            "眼部疼痛加剧",
+            "血氧饱和度持续下降"
+        ],
+        "query_intent": "\"76岁女性患者左眼球化学性灼伤伴高烧39℃，血氧93%，需要退烧药和特殊眼药治疗吗？\""
+    },
+    {
+        "id": 87,
+        "patient_info": {
+            "name": "姚**",
+            "age": "36岁",
+            "gender": "女"
+        },
+        "disease_info": [
+            "妊娠合并糖尿病",
+            "妊娠合并甲状腺功能减退",
+            "妊娠合并肥胖症",
+            "妊娠合并生殖道B族链球菌定植"
+        ],
+        "department_info": "产科、内分泌科",
+        "notes_info": "待产状态",
+        "risk_info": [
+            "高龄经产妇",
+            "妊娠合并肥胖症"
+        ],
+        "secondary_diagnosis_info": [
+            "高龄经产妇",
+            "孕2产1孕38+3周宫内单活胎LOA"
+        ],
+        "main_issues": [
+            "妊娠合并糖尿病（怀孕期间血糖偏高）",
+            "妊娠合并甲状腺功能减退（甲状腺激素不足）",
+            "妊娠合并肥胖症（体重超标）",
+            "高龄经产妇（36岁怀孕生产）"
+        ],
+        "key_observations": [
+            "血糖水平（因妊娠糖尿病需重点关注）",
+            "甲状腺功能指标（因甲状腺功能减退需监测）",
+            "体重变化（因肥胖症需控制）"
+        ],
+        "normal_indicators": [
+            "心率83次/分钟（正常）",
+            "呼吸20次/分钟（正常）",
+            "血压110/64 mmHg（正常）",
+            "血氧96%（正常）"
+        ],
+        "possible_treatments": [
+            "可能需要胰岛素控制血糖",
+            "可能需要甲状腺激素补充药物",
+            "可能需要控制体重的营养补充剂"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测血糖",
+            "定期检查甲状腺功能",
+            "记录体重变化"
+        ],
+        "lifestyle_changes": [
+            "控制饮食，避免高糖高脂食物",
+            "适量运动，如散步",
+            "保证充足休息"
+        ],
+        "warning_signs": [
+            "血糖异常升高或降低",
+            "甲状腺功能异常症状（如极度疲劳、体重快速变化）",
+            "出现感染症状（如发热、伤口红肿）"
+        ],
+        "query_intent": "\"36岁高龄经产妇，妊娠合并糖尿病、甲状腺功能减退和肥胖症，孕38+3周待产，血糖偏高需要胰岛素治疗吗？甲状腺功能指标如何监测？体重控制需要注意什么？\""
+    },
+    {
+        "id": 88,
+        "patient_info": {
+            "name": "陈**",
+            "age": "62岁",
+            "gender": "男"
+        },
+        "disease_info": [
+            "头皮裂伤"
+        ],
+        "department_info": "急诊科、神经外科",
+        "notes_info": "卧床，无自主活动，无痛：NRS评分0分/CPOT评分0分，固定方式：思乐扣/水囊/气囊",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者目前卧床，无法自主活动",
+            "头皮裂伤需要特别护理"
+        ],
+        "key_observations": [
+            "无疼痛症状（疼痛评分为0）",
+            "使用思乐扣/水囊/气囊固定"
+        ],
+        "normal_indicators": [
+            "疼痛控制良好，无痛感"
+        ],
+        "possible_treatments": [
+            "可能需要镇静镇痛药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "观察头皮裂伤恢复情况",
+            "注意固定装置是否稳固"
+        ],
+        "lifestyle_changes": [
+            "保持卧床休息",
+            "避免头部剧烈活动"
+        ],
+        "warning_signs": [
+            "出现剧烈头痛",
+            "固定装置松动或脱落",
+            "伤口出血或感染迹象"
+        ],
+        "query_intent": "\"62岁男性患者卧床无法自主活动，头皮裂伤无疼痛症状，使用思乐扣/水囊/气囊固定，需要镇静镇痛药物吗？\""
+    },
+    {
+        "id": 89,
+        "patient_info": {
+            "name": "李**",
+            "age": "50岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "颈腰部疼痛（评分1分），穿刺点敷料干洁，遵医嘱办理出院手续，患者步行出院",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "颈腰部轻微疼痛"
+        ],
+        "key_observations": [
+            "疼痛评分较低（1分）",
+            "穿刺点敷料干洁"
+        ],
+        "normal_indicators": [
+            "无发烧、血压等异常记录",
+            "可自主步行出院"
+        ],
+        "possible_treatments": [
+            "可能需继续服用止痛药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "注意疼痛部位变化",
+            "观察穿刺点是否红肿"
+        ],
+        "lifestyle_changes": [
+            "避免久坐或过度活动颈腰部",
+            "保持穿刺点清洁干燥"
+        ],
+        "warning_signs": [
+            "疼痛突然加重",
+            "穿刺点出现渗液或红肿发热"
+        ],
+        "query_intent": "\"50岁女性颈腰部轻微疼痛（评分1分），穿刺点敷料干洁，可以出院吗？需要注意什么？\""
+    },
+    {
+        "id": 90,
+        "patient_info": {
+            "name": "陈**",
+            "age": "27岁",
+            "gender": "女"
+        },
+        "disease_info": [
+            "妊娠期肝内胆汁淤积症（重度）",
+            "妊娠期糖尿病"
+        ],
+        "department_info": "产科、内分泌科",
+        "notes_info": "孕妇因撒旦撒门诊步行入院,予胎心监护，向患者及家属行新型冠状病毒感染肺炎相关知识宣教",
+        "risk_info": [],
+        "secondary_diagnosis_info": [
+            "孕2产1孕31+2周宫内单活胎LOA 待产"
+        ],
+        "main_issues": [
+            "妊娠期肝内胆汁淤积症（重度）",
+            "妊娠期糖尿病",
+            "孕31+2周待产"
+        ],
+        "key_observations": [
+            "心率异常（333次/分钟）",
+            "呼吸频率偏高（36次/分钟）"
+        ],
+        "normal_indicators": [
+            "体温正常（36℃）",
+            "血压未显示异常",
+            "血氧未显示异常"
+        ],
+        "possible_treatments": [
+            "可能需要针对妊娠期肝内胆汁淤积症的药物",
+            "可能需要控制妊娠期糖尿病的药物",
+            "可能需要保胎药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测胎心",
+            "每日监测血糖",
+            "每日监测肝功能指标"
+        ],
+        "lifestyle_changes": [
+            "低糖饮食控制血糖",
+            "适量活动但避免劳累",
+            "保持充足休息"
+        ],
+        "warning_signs": [
+            "出现皮肤严重瘙痒",
+            "胎动明显减少",
+            "血糖控制不佳",
+            "出现腹痛或阴道出血"
+        ],
+        "query_intent": "\"妊娠期肝内胆汁淤积症（重度）合并妊娠期糖尿病，孕31+2周待产，心率333次/分，呼吸频率36次/分，需要哪些药物治疗和监测建议？\""
+    },
+    {
+        "id": 91,
+        "patient_info": {
+            "name": "戴**",
+            "age": "50岁",
+            "gender": "男"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "深静脉导管植入术后维护状态（PICC）",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者需要注意PICC导管的日常维护，避免感染和导管移位"
+        ],
+        "key_observations": [
+            "导管外露长度（目前为0cm）",
+            "穿刺点情况（目前无异常）"
+        ],
+        "normal_indicators": [
+            "上臂围29cm（与基础围一致，无肿胀）",
+            "导管维护操作规范（脉冲式冲管、肝素盐水封管）"
+        ],
+        "possible_treatments": [
+            "导管维护需要使用肝素盐水封管"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日观察穿刺点是否有红肿、渗液",
+            "注意导管外露长度变化"
+        ],
+        "lifestyle_changes": [
+            "避免剧烈运动防止导管移位",
+            "保持穿刺部位清洁干燥"
+        ],
+        "warning_signs": [
+            "穿刺点出现红肿、疼痛或渗液",
+            "导管外露长度突然增加",
+            "手臂出现肿胀或疼痛"
+        ],
+        "query_intent": "\"PICC导管植入术后，导管外露0cm，穿刺点无异常，上臂围29cm无肿胀，如何进行日常维护？\""
+    },
+    {
+        "id": 92,
+        "patient_info": {
+            "name": "周*",
+            "age": "32岁",
+            "gender": "男"
+        },
+        "disease_info": [
+            "基底节出血"
+        ],
+        "department_info": "神经外科、神经内科",
+        "notes_info": "骶尾压疮4*5不可分期，右偏瘫，焦虑，吞咽困难，左耳失聪，便秘，尿痛浑浊，视力障碍，喘息气促，咳嗽有黄黏痰，腹痛拒按，四肢肌力Ⅱ级",
+        "risk_info": [
+            "吸烟史5年",
+            "年龄<18岁或≥35岁",
+            "自然流产≥2次",
+            "早产史≥2次",
+            "心脏病心功能III级级IV级",
+            "肺心病",
+            "艾滋病"
+        ],
+        "secondary_diagnosis_info": [
+            "偏瘫",
+            "口腔黏膜溃疡",
+            "焦虑",
+            "吞咽障碍",
+            "压疮",
+            "深静脉血栓风险"
+        ],
+        "main_issues": [
+            "阴道流血（颜色潮红）",
+            "便秘",
+            "口腔黏膜溃疡",
+            "焦虑情绪",
+            "睡眠困难需要辅助用药",
+            "尿痛且尿液浑浊",
+            "视力障碍",
+            "左耳失聪",
+            "骶尾部有压疮（面积4*5cm，不可分期）",
+            "深静脉血栓风险",
+            "吞咽障碍",
+            "喘息气促",
+            "咳嗽有黄黏痰",
+            "右肢偏瘫"
+        ],
+        "key_observations": [
+            "阴道流血情况",
+            "压疮的护理与恢复",
+            "深静脉血栓的预防",
+            "呼吸状况（喘息气促）",
+            "痰液颜色与性质",
+            "肢体活动能力（右肢偏瘫）"
+        ],
+        "normal_indicators": [
+            "BMI指数正常（24.69）",
+            "乳房发育正常",
+            "母乳喂养认知掌握"
+        ],
+        "possible_treatments": [
+            "可能需要止痛药（现有疼痛）",
+            "睡眠辅助药物（如思诺思）",
+            "可能需要抗生素（现有尿痛、浑浊尿）",
+            "可能需要化痰药（现有黄黏痰）"
+        ],
+        "important_note": "具体用药请严格遵医嘱，尤其是青霉素等抗生素使用需医生指导。",
+        "monitoring": [
+            "每日监测阴道流血情况",
+            "观察压疮部位是否有恶化",
+            "监测呼吸状况（喘息气促是否加重）",
+            "观察痰液颜色与量",
+            "监测排尿情况（尿痛、浑浊是否改善）"
+        ],
+        "lifestyle_changes": [
+            "保持高纤维饮食以防便秘",
+            "多饮水以改善尿液浑浊",
+            "适当翻身以防压疮恶化",
+            "进行呼吸锻炼以改善气促",
+            "保持口腔清洁以防溃疡恶化"
+        ],
+        "warning_signs": [
+            "阴道流血量突然增加",
+            "压疮部位出现红肿、流脓",
+            "呼吸困难加重",
+            "痰中带血",
+            "发热"
+        ],
+        "query_intent": "\"32岁男性基底节出血患者，伴有骶尾压疮4*5cm不可分期、右偏瘫、焦虑、吞咽困难、左耳失聪、便秘、尿痛浑浊、视力障碍、喘息气促、咳嗽有黄黏痰、腹痛拒按、四肢肌力Ⅱ级，有吸烟史5年、心脏病心功能III-IV级、肺心病等高危因素，现阴道流血潮红、口腔黏膜溃疡、睡眠困难、深静脉血栓风险，BMI24.69正常，需要止痛药、睡眠辅助药物、抗生素和化痰药吗？如何护理压疮和预防深静脉血栓？\""
+    },
+    {
+        "id": 93,
+        "patient_info": {
+            "name": "汪*",
+            "age": "32岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "阴道出血，产后状态",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "产后阴道出血"
+        ],
+        "key_observations": [
+            "阴道出血量（20ml）",
+            "子宫收缩情况"
+        ],
+        "normal_indicators": [
+            "血压正常（106/63mmHg）",
+            "呼吸正常（20次/分钟）",
+            "脉搏正常（89次/分钟）",
+            "神志清醒"
+        ],
+        "possible_treatments": [
+            "可能需要止血药物",
+            "促进子宫收缩药物"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日观察阴道出血量",
+            "注意子宫收缩情况",
+            "监测血压"
+        ],
+        "lifestyle_changes": [
+            "保持会阴部清洁",
+            "适当休息",
+            "避免剧烈运动"
+        ],
+        "warning_signs": [
+            "出血量突然增加",
+            "出现头晕或乏力",
+            "发热或异常疼痛"
+        ],
+        "query_intent": "\"产后阴道出血20ml，血压106/63mmHg，需要使用止血或促进子宫收缩的药物吗？\""
+    },
+    {
+        "id": 94,
+        "patient_info": {
+            "name": null,
+            "age": null,
+            "gender": null
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "未知病历类型18，无明确诊断信息",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "病历信息不完整，无法确定具体健康问题"
+        ],
+        "key_observations": [
+            "病历类型未知，诊断信息缺失"
+        ],
+        "normal_indicators": [
+            "无法确定，因缺乏具体检查数据"
+        ],
+        "possible_treatments": [
+            "无法提供具体用药建议，因诊断信息缺失"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "建议尽快完善病历信息，明确诊断"
+        ],
+        "lifestyle_changes": [
+            "保持健康生活习惯，如有不适及时就医"
+        ],
+        "warning_signs": [
+            "出现任何不适症状应立即就医"
+        ],
+        "query_intent": "\"病历信息不完整，无法确定具体健康问题，该如何处理？\""
+    },
+    {
+        "id": 95,
+        "patient_info": {
+            "name": "黄**",
+            "age": "27岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "无明确诊断信息",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者当前无明显紧急健康问题，但需关注心率稍快（98次/分钟）"
+        ],
+        "key_observations": [
+            "心率（98次/分钟）略高于正常范围（60-100次/分钟）"
+        ],
+        "normal_indicators": [
+            "暂无其他异常指标报告"
+        ],
+        "possible_treatments": [
+            "可能需要调节心率的药物（如β受体阻滞剂）"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测心率"
+        ],
+        "lifestyle_changes": [
+            "保持充足休息，避免剧烈运动和情绪激动"
+        ],
+        "warning_signs": [
+            "心率持续高于100次/分钟或出现心悸、胸闷等症状应立即就医"
+        ],
+        "query_intent": "“27岁女性，心率98次/分略快，需要服用β受体阻滞剂吗？”"
+    },
+    {
+        "id": 96,
+        "patient_info": {
+            "name": "周*",
+            "age": "32岁",
+            "gender": null
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "Braden风险评估表显示极度风险，使用压力减缓装置，营养支持合适",
+        "risk_info": [
+            "极度风险"
+        ],
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者有极高的压疮（褥疮）风险，需要特别注意皮肤护理"
+        ],
+        "key_observations": [
+            "潮湿环境、活动量少、使用压力减缓装置的情况"
+        ],
+        "normal_indicators": [
+            "移动能力未受限"
+        ],
+        "possible_treatments": [
+            "使用专业的压力减缓装置（如肘部和足后跟保护垫）"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日检查皮肤是否有发红或破损",
+            "观察压力减缓装置的使用效果"
+        ],
+        "lifestyle_changes": [
+            "增加翻身频率（至少每2小时一次）",
+            "保持皮肤清洁干燥",
+            "确保摄入足够的热量和蛋白质",
+            "在护理人员协助下进行适度活动"
+        ],
+        "warning_signs": [
+            "皮肤出现发红、破损或溃疡",
+            "现有伤口恶化",
+            "出现发热等感染迹象"
+        ],
+        "query_intent": "\"32岁患者Braden评分显示压疮极度风险，使用压力减缓装置，移动能力未受限，需要如何调整护理方案？\""
+    },
+    {
+        "id": 97,
+        "patient_info": {
+            "name": "赵**",
+            "age": "37岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "椎管内麻醉管拔出状态，伤口无渗血，孕39+3周",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "患者刚完成椎管内麻醉的拔管，需要注意伤口恢复情况"
+        ],
+        "key_observations": [
+            "血压（105/66 mmHg）和脉搏（97次/分钟）"
+        ],
+        "normal_indicators": [
+            "血压和脉搏均在正常范围内，伤口无渗血"
+        ],
+        "possible_treatments": [
+            "可能需要使用缩宫素帮助子宫收缩"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测血压、脉搏，观察伤口情况"
+        ],
+        "lifestyle_changes": [
+            "保持伤口清洁干燥，适当休息"
+        ],
+        "warning_signs": [
+            "伤口出现渗血、红肿、发热或剧烈疼痛应立即就医"
+        ],
+        "query_intent": "\"孕39+3周，椎管内麻醉拔管后，血压105/66 mmHg，脉搏97次/分，需要使用缩宫素吗？\""
+    },
+    {
+        "id": 98,
+        "patient_info": {
+            "name": "陈**",
+            "age": "27岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "无明确诊断信息，护理记录单显示生命体征正常",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "暂无紧急健康问题"
+        ],
+        "key_observations": [
+            "心率较低（56次/分钟）",
+            "呼吸频率较快（65次/分钟）"
+        ],
+        "normal_indicators": [
+            "体温正常（36.6℃）"
+        ],
+        "possible_treatments": [
+            "目前无用药建议"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测心率和呼吸频率"
+        ],
+        "lifestyle_changes": [
+            "保持规律作息",
+            "避免剧烈运动"
+        ],
+        "warning_signs": [
+            "出现头晕、乏力、呼吸困难等症状应立即就医"
+        ],
+        "query_intent": "\"27岁女性，心率56次/分，呼吸频率65次/分，体温36.6℃，需要注意什么？\""
+    },
+    {
+        "id": 99,
+        "patient_info": {
+            "name": "闫**",
+            "age": "46岁",
+            "gender": "女"
+        },
+        "disease_info": null,
+        "department_info": "未知",
+        "notes_info": "视力老花，营养良好",
+        "risk_info": [
+            "视力障碍"
+        ],
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "视力障碍（老花）",
+            "心率偏快（101次/分）"
+        ],
+        "key_observations": [
+            "心率（101次/分）",
+            "体温（37.1℃，正常）",
+            "呼吸（20次/分，正常）"
+        ],
+        "normal_indicators": [
+            "体温正常",
+            "呼吸正常",
+            "血压未测但无相关不适主诉",
+            "皮肤完好",
+            "口腔黏膜完整"
+        ],
+        "possible_treatments": [
+            "暂无用药记录"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "心率",
+            "体温"
+        ],
+        "lifestyle_changes": [
+            "保持规律作息",
+            "均衡饮食（BMI 18.18偏瘦）",
+            "注意用眼卫生（老花）"
+        ],
+        "warning_signs": [
+            "心率持续＞100次/分",
+            "出现胸闷/头晕",
+            "视力突然下降"
+        ],
+        "query_intent": "\"46岁女性，老花眼，心率101次/分，需要特别注意什么？\""
+    },
+    {
+        "id": 100,
+        "patient_info": {
+            "name": "黄****",
+            "age": "0岁",
+            "gender": "女"
+        },
+        "disease_info": [
+            "新生儿黄疸"
+        ],
+        "department_info": "儿科",
+        "notes_info": "新生儿因新生儿黄疸转新生儿科治疗，已行相关知识宣教",
+        "risk_info": null,
+        "secondary_diagnosis_info": null,
+        "main_issues": [
+            "新生儿黄疸需要特别关注"
+        ],
+        "key_observations": [
+            "医生重点关注黄疸情况"
+        ],
+        "normal_indicators": [
+            "摄入量和排出量基本平衡"
+        ],
+        "possible_treatments": [
+            "可能需要光疗治疗黄疸"
+        ],
+        "important_note": "具体用药请严格遵医嘱",
+        "monitoring": [
+            "每日监测黄疸情况",
+            "记录摄入量和排出量"
+        ],
+        "lifestyle_changes": [
+            "按需喂养",
+            "保持充足睡眠"
+        ],
+        "warning_signs": [
+            "黄疸加重",
+            "食欲下降",
+            "精神状态异常"
+        ],
+        "query_intent": "\"新生儿黄疸需要光疗治疗吗？每日如何监测黄疸情况和记录摄入排出量？\""
+    }
+]
