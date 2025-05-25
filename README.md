@@ -2,7 +2,7 @@
 
 # 模块（1）MediCal-Care RAG
 
-MediCal-Care RAG 是一个面向医疗场景的 RAG（Retrieval-Augmented Generation，检索增强生成）系统，结合了向量检索、BM25 检索、重排序（Rerank）和大语言模型（LLM），用于自动生成高质量的医疗建议或医嘱。
+MediCal-Care RAG 是一个面向医疗场景的 RAG系统，用于自动生成高质量的医疗建议或医嘱。
 
 ## 目录结构
 
