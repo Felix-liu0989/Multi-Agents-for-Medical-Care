@@ -202,7 +202,7 @@ def process_patients(input_path: str, output_path: str, api_key: str) -> Dict:
 
 if __name__ == "__main__":
     # 配置参数
-    API_KEY = "sk-6e0440959b8644e69caf411a616089a5"  # 替换为你的DeepSeek API密钥
+    API_KEY = "api-key"  # 替换为你的DeepSeek API密钥
     INPUT_JSON = "doctor_advice_test.json"
     OUTPUT_JSON = "follow_up_plans-test-1.json"
 
