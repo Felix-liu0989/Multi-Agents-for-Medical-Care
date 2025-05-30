@@ -1,5 +1,3 @@
----
-
 # 模块（1）MediCal-Care RAG
 
 MediCal-Care RAG 是一个面向医疗场景的 RAG系统，用于自动生成高质量的医疗建议或医嘱。
