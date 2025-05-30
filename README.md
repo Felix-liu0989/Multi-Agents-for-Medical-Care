@@ -78,6 +78,7 @@ MediCal-Care-RAG/
 
 
 ---
+
 # 模块（2）Health Video Generator
 
 Health Video Generator 是一个面向医疗宣教场景的视频生成系统，结合大语言模型和语音合成服务，自动生成带图像动画、语音和字幕的个性化健康教育视频。
