@@ -118,7 +118,19 @@ python run.py \
   ## 示例输入
 
   ```json
-  {  "patient_info": {    "name": "刘**",    "age": "72岁",    "gender": "女"  },  "disease_summary": {    "primary_diagnosis": ["左侧椎动脉重度狭窄", "缺血性脑血管病"],    "secondary_diagnosis": ["多发脑动脉狭窄", "高血压病2级"],    "risk_factors": ["极高危"],    "notes": "支架植入术后状态，主诉反复头晕"  }}
+  {
+    "patient_info": {
+      "name": "刘**",
+      "age": "72岁",
+      "gender": "女"
+    },
+    "disease_summary": {
+      "primary_diagnosis": ["左侧椎动脉重度狭窄", "缺血性脑血管病"],
+      "secondary_diagnosis": ["多发脑动脉狭窄", "高血压病2级"],
+      "risk_factors": ["极高危"],
+      "notes": "支架植入术后状态，主诉反复头晕"
+    }
+  }
   ```
 
   ## 示例输出
