@@ -122,7 +122,7 @@ class frontTools:
             # 获取 name，如果不存在则返回 None
             patient_name = patient_info.get("name")
             if patient_name is None or patient_name == '':
-                name = '某'
+                name = ''
             else:
                 name = patient_name[:1]  # 取名字的第一个字符
 
@@ -134,7 +134,7 @@ class frontTools:
                 gender = patient_gender
         else:
             # 如果 patient_info 不存在，设置默认值
-            name = '某'
+            name = ''
             gender = '男'
         monitoring = ''
         lifestyle_changes = ''
