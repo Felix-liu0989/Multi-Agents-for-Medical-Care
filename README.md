@@ -140,3 +140,80 @@ python run.py \
 - 检索Agent：为了使得生成的医嘱更加准确，消解可能出现的医学知识幻觉，我们构建了一个10000条的病例问答数据集，分为内科，外科，心血管，男科，妇科等多个科室，使得query查询可以匹配到更精准的专家问诊信息，辅助模型生成准确的医嘱建议。
 
 - 医嘱生成Agent：将病例信息、自然语言问题查询以及检索到的外部文档进行整合，模型生成医嘱建议
+
+# 模块（2）Health Video Generator
+
+Health Video Generator 是一个面向医疗宣教场景的视频生成系统，结合大语言模型和语音合成服务，自动生成带图像动画、语音和字幕的个性化健康教育视频。
+
+## 目录结构
+
+```
+src/
+├── health_video_generator.py     # 核心类与运行入口
+├── fonts/                        # 中文字体（Noto Sans）
+│   ├── NotoSansSC-Regular.ttf
+│   └── NotoSansSC-ExtraBold.ttf
+├── assets/                       # 视频所用背景图与图像元素
+│   ├── background/
+│   └── images/
+├── audio/                        # 临时生成的语音片段
+├── output/                       # 生成的视频与脚本输出
+│   ├── final_video.mp4
+│   └── scene_script.json
+├── .env                          # 环境变量（API 密钥配置）
+├── requirements.txt             # Python依赖列表
+└── README.md                    # 项目说明文档
+```
+
+## 环境依赖
+
+- Python 3.8+
+- openai
+- moviepy
+- python-dotenv
+- tencentcloud-sdk-python
+
+## 快速开始
+
+1. **配置 API 密钥**
+
+在项目根目录创建 `.env` 文件：
+
+```
+OPENAI_API_KEY=sk-xxxx
+TENCENT_SECRET_ID=AKIDxxxx
+TENCENT_SECRET_KEY=xxxx
+```
+
+2. **准备素材**
+- 图片素材放入 `assets/background/` 和 `assets/images/`
+- 中文字体放入 `fonts/`
+
+3. **运行脚本生成视频**
+
+```bash
+python health_video_generator.py
+```
+
+
+4. **查看输出**
+
+- `output/final_video.mp4`：生成的视频
+- `output/scene_script.json`：生成的脚本场景
+
+## 核心流程
+
+1. 通过 LLM 生成宣教脚本场景（JSON）
+2. 使用腾讯云 TTS 合成语音
+3. 自动加载图片素材并生成视频动画
+4. 合成字幕与语音
+5. 输出 MP4 视频与 JSON 脚本
+
+## 主要模块说明
+
+- `HealthVideoGenerator`：主类，封装所有功能
+- `generate_script()`：生成脚本 JSON 场景
+- `synthesize_tts()`：语音合成
+- `create_scene_clip()`：构建每个场景的图像 + 音频合成片段
+- `run()`：执行整体流程，保存结果
+
