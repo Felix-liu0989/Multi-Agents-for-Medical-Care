@@ -147,7 +147,7 @@ class frontTools:
             warning_signs += item
         content = monitoring + '。' + '在生活方式上，' + lifestyle_changes + '。' + '特别注意：若出现' + warning_signs + '尽快就医。'
         if self.mode == 'release':
-            from ..video_generater import HealthVideoGenerator
+            from video_generater import HealthVideoGenerator
             vd = HealthVideoGenerator(name, gender, content)
             vd.run()
             self.videoPath = vd.video_path
