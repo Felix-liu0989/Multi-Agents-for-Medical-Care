@@ -54,9 +54,12 @@ if uploaded_file:
                 tools.summary(entry)
                 tools.advice(entry)
                 tools.pipeline(entry)
+                tools.generateVideo(entry)
                 edu = {}
-                video = '/root/autodl-fs/healthRAG/test.mp4'
-                # tools.videoPath
+                video = tools.videoPath
+                print(video)
+                # '/root/autodl-fs/healthRAG/test_video_3.mp4'
+                # 
                 edu["text"] = tools.summaryText
                 followup = {}
                 followup["text"] = tools.followup
