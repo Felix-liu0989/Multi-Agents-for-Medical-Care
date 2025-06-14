@@ -81,6 +81,7 @@ magick -list configure | grep freetype  # 检查 Freetype 支持
 ```
 
 
+本项目同时支持各个模块分别运行
 
 # 模块（1）HealthRAG
 
