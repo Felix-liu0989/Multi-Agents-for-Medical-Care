@@ -1,0 +1,15 @@
+torch==2.2.1
+transformers==4.43.0
+langchain==0.3.25
+jieba==0.42.1
+rank-bm25==0.2.2
+faiss-gpu==1.7.2
+graphviz==0.20.3
+openai==1.76.2
+streamlit==1.35.0
+pillow==11.1.0
+tqdm==4.67.1
+numpy==1.26.4
+moviepy==1.03
+python-dotenv==1.1.0
+tencentcloud-sdk-python==3.0.1401
